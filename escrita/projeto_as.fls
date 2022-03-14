@@ -1,7 +1,7 @@
-PWD c:\Users\ampsi\OneDrive\Ambiente de Trabalho\Projeto\escrita
+PWD c:\Users\ampsi\OneDrive\Ambiente de Trabalho\Projeto\Projeto\escrita
 INPUT C:\Users\ampsi\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\ampsi\OneDrive\Ambiente de Trabalho\Projeto\escrita\samplepaper.tex
-OUTPUT samplepaper.log
+INPUT c:\Users\ampsi\OneDrive\Ambiente de Trabalho\Projeto\Projeto\escrita\projeto_as.tex
+OUTPUT projeto_as.log
 INPUT .\llncs.cls
 INPUT .\llncs.cls
 INPUT llncs.cls
@@ -113,10 +113,10 @@ INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend
 INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\samplepaper.aux
-INPUT samplepaper.aux
-INPUT samplepaper.aux
-OUTPUT samplepaper.aux
+INPUT .\projeto_as.aux
+INPUT projeto_as.aux
+INPUT projeto_as.aux
+OUTPUT projeto_as.aux
 INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -161,11 +161,11 @@ INPUT .\fig1-eps-converted-to.pdf
 INPUT .\fig1.eps
 INPUT .\fig1-eps-converted-to.pdf
 INPUT .\fig1-eps-converted-to.pdf
-OUTPUT samplepaper.pdf
+OUTPUT projeto_as.pdf
 INPUT .\fig1-eps-converted-to.pdf
 INPUT .\fig1-eps-converted-to.pdf
 INPUT C:\Users\ampsi\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT samplepaper.aux
+INPUT projeto_as.aux
 INPUT C:\Users\ampsi\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0900.pk
 INPUT C:\Users\ampsi\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0900.pk
 INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
