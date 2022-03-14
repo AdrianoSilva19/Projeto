@@ -17,3 +17,5 @@ It consists of the following files:
   llncsdoc.pdf       the documentation of the class (PDF version)
 
   splncs04.bst       current LNCS BibTeX style with alphabetic sorting
+  
+  samplepaper.pdf    the final pdf os the samplepaper
