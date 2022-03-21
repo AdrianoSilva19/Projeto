@@ -1,5 +1,14 @@
+começar com a tematica do biodisel?
 1-Numero crescente de dados
 2-Necessidade de armazenamento curado dos mesmos 
+o que são modelos, para que servem
+anotação inexistente ou incompleta
+4-pequena intro a representação dos lipidos
+5-Problema de representação de lipidos ser generica, necessaria para a representação e um manuseamento flexivel de modelos lipidicos
+6-o problema da representação lipidica já foi implementado na base de dados boimmg, grafos
 
+objetivo
 
-Problema de representação de lipidos
+1-criar uma nova label onde entrara a informação referente a sinonimo e abreviatura de cada lipidos
+
+Estado de arte 
