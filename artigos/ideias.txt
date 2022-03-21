@@ -8,7 +8,17 @@ anotação inexistente ou incompleta
 6-o problema da representação lipidica já foi implementado na base de dados boimmg, grafos
 
 objetivo
-
 1-criar uma nova label onde entrara a informação referente a sinonimo e abreviatura de cada lipidos
 
-Estado de arte 
+Estado da arte
+-o que são modelos gsm, aplicabilidade, anotação, representação dos lipidos
+-pipeline de ETL, Base de dados em grafos, secção soluções de text mining
+
+
+Parte pratica:
+1-Primeiro passo gerar parssers para csv da swisslipids e parser para sdf da lipidmaps
+---------- falar com o capela ---------
+-integrar na base de dados
+-parsers pandas, parsers rdkit
+
+dia 27/28 reunião mostrar primeira parte (contexto e motivação, objetivo, estado de arte maybe)
