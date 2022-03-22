@@ -1,16 +1,2 @@
-motivação:
-- texto
-contexto motivação:
-Melhorar a interpertabilidade de modelos de algas e biocombustiveis
-o que são modelos, para que servem
-anotação inexistente ou incompleta
-Estado da arte
-o que são, aplicabilidade, anotação, representação dos lipidos
-pipeline de ETL, Base de dados em grafos, secção soluções de text mining
+Contexto e Motivação
 
-parte pratica:
-gerar parsers para ler e ir buscar a info
-integrar na base de dados
-parsers pandas, parsers rdkit
-
-update de 2 em 2 semanas. 
