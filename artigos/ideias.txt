@@ -1,4 +1,3 @@
-começar com a tematica do biodisel?
 1-Numero crescente de dados
 2-Necessidade de armazenamento curado dos mesmos 
 o que são modelos, para que servem
