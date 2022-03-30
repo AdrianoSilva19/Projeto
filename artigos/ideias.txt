@@ -14,7 +14,7 @@ Estado da arte
 -pipeline de ETL, Base de dados em grafos, secção soluções de text mining
 
 
-Parte pratica:
+Parte prática:
 1-Primeiro passo gerar parssers para csv da swisslipids e parser para sdf da lipidmaps
 ---------- falar com o capela ---------
 -integrar na base de dados

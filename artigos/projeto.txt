@@ -1,3 +1,7 @@
-Contexto e Motivação
+Context and motivation
 
-
+1-Following the new era of digital expansion in the past decades the science is experiencing a great evolution and growth.
+2-This scientific growth aligned with the necessitie to have acessible, well structured and cured data has brougth to ligth some problems
+3-Omic, huge amount of data, use of existing data to proceed with new research
+4-lipid , problem with the representation in existing databases
+5-boimmg aiming to fill that gap 
