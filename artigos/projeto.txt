@@ -1,7 +1,7 @@
 Context and motivation
 
 1-Following the new era of digital expansion in the past decades the science is experiencing a great evolution and growth.
-3-Aligned with the necessitie to have acessible, well structured and cured data has brougth to ligth some problems
+3-Aligned with the neccessity to have accessible, well structured and cured data has brougth to ligth some problems
 2-Omic, huge amount of data, use of existing data to proceed with new research
 4-lipid , problem with the representation in existing databases
 5-boimmg seeks to fill that gap 
