@@ -144,6 +144,8 @@ INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm090
 INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+OUTPUT projeto_as.pdf
+INPUT C:\Users\ampsi\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
@@ -151,8 +153,6 @@ INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
 INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
 INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti9.tfm
-OUTPUT projeto_as.pdf
-INPUT C:\Users\ampsi\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT .\fig1.eps
 INPUT .\fig1.eps
 INPUT fig1.eps
@@ -165,6 +165,10 @@ INPUT .\fig1-eps-converted-to.pdf
 INPUT .\fig1-eps-converted-to.pdf
 INPUT .\fig1-eps-converted-to.pdf
 INPUT .\fig1-eps-converted-to.pdf
+INPUT .\projeto_as.bbl
+INPUT projeto_as.bbl
+INPUT .\projeto_as.bbl
+INPUT projeto_as.bbl
 INPUT projeto_as.aux
 INPUT C:\Users\ampsi\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0900.pk
 INPUT C:\Users\ampsi\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0900.pk
