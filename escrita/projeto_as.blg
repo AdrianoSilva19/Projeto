@@ -1,53 +1,53 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: projeto_as.aux
-Reallocating 'name_of_file' (item size: 1) to 6 items.
-The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: ieeetr.bst
 Reallocating 'name_of_file' (item size: 1) to 16 items.
 Database file #1: referencias.bib
-Warning--empty journal in article5
-Warning--empty year in article5
 Warning--empty journal in article2
 Warning--empty year in article2
+Warning--empty journal in article5
+Warning--empty year in article5
 You've used 6 entries,
-            2118 wiz_defined-function locations,
-            536 strings with 5259 characters,
-and the built_in function-call counts, 1991 in all, are:
-= -- 177
-> -- 128
+            1876 wiz_defined-function locations,
+            516 strings with 4736 characters,
+and the built_in function-call counts, 1497 in all, are:
+= -- 131
+> -- 78
 < -- 0
-+ -- 50
-- -- 44
-* -- 162
-:= -- 360
-add.period$ -- 16
++ -- 28
+- -- 22
+* -- 115
+:= -- 224
+add.period$ -- 4
 call.type$ -- 6
-change.case$ -- 40
+change.case$ -- 6
 chr.to.int$ -- 0
 cite$ -- 10
-duplicate$ -- 63
-empty$ -- 129
-format.name$ -- 44
-if$ -- 385
+duplicate$ -- 82
+empty$ -- 124
+format.name$ -- 22
+if$ -- 353
 int.to.chr$ -- 0
 int.to.str$ -- 6
 missing$ -- 6
-newline$ -- 31
-num.names$ -- 12
-pop$ -- 40
+newline$ -- 21
+num.names$ -- 6
+pop$ -- 21
 preamble$ -- 1
-purify$ -- 34
+purify$ -- 0
 quote$ -- 0
-skip$ -- 43
+skip$ -- 63
 stack$ -- 0
-substring$ -- 90
-swap$ -- 4
+substring$ -- 58
+swap$ -- 36
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 24
+type$ -- 0
 warning$ -- 4
-while$ -- 15
+while$ -- 10
 width$ -- 7
-write$ -- 60
+write$ -- 53
 (There were 4 warnings)
