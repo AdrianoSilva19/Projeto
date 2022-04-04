@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex projeto_as"] 1649076997 "projeto_as.aux" "projeto_as.bbl" "projeto_as" 1649076998
+["bibtex projeto_as"] 1649092127 "projeto_as.aux" "projeto_as.bbl" "projeto_as" 1649092128
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291867944 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "projeto_as.aux" 1649076998 2248 0f1cfd6b66da311a44383679891e98e9 "pdflatex"
+  "projeto_as.aux" 1649092128 2248 988f6233608f05f034bacdb92e36ca98 "pdflatex"
   "referencias.bib" 1649076536 11780 aa16f7601b52e2addac1ec1516f00f94 ""
   (generated)
   "projeto_as.bbl"
   "projeto_as.blg"
-["pdflatex"] 1649076997 "c:/Users/ampsi/OneDrive/Ambiente de Trabalho/Projeto/Projeto/escrita/projeto_as.tex" "projeto_as.pdf" "projeto_as" 1649076998
+["pdflatex"] 1649092127 "c:/Users/ampsi/OneDrive/Ambiente de Trabalho/Projeto/Projeto/escrita/projeto_as.tex" "projeto_as.pdf" "projeto_as" 1649092128
   "C:/Users/ampsi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1647297123 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/ampsi/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0900.pk" 1647297133 10472 cef087521c16355fc24191b52c91f224 ""
   "C:/Users/ampsi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1647297128 10246961 2945a5d4e2648c75c2f4c9644d494c39 ""
@@ -47,12 +47,12 @@
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1644218660 29921 d0acc05a38bd4aa3af2017f0b7c137ce ""
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/tex/latex/oberdiek/aliascnt.sty" 1637064316 2652 813491e2bc95c1dafbb39cd7c54b380b ""
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1636713860 32262 2bb622a0aa56c4a7a5cbdfe9d122c15a ""
-  "c:/Users/ampsi/OneDrive/Ambiente de Trabalho/Projeto/Projeto/escrita/projeto_as.tex" 1649076993 6168 0bf7df2b3f2138546a3695b905ff88b0 ""
+  "c:/Users/ampsi/OneDrive/Ambiente de Trabalho/Projeto/Projeto/escrita/projeto_as.tex" 1649092125 6257 49f2fe8db94dcd4bcb7d533f3cdd78a2 ""
   "fig1.eps" 1647288372 357553 7e2b7e710693198613c8426973a2c3ce ""
   "llncs.cls" 1647288372 42249 b08ec23e994470d7d8fc268d245cf555 ""
-  "projeto_as.aux" 1649076998 2248 0f1cfd6b66da311a44383679891e98e9 "pdflatex"
-  "projeto_as.bbl" 1649076997 1402 4275b72014128cc31357113f31cc8e7e "bibtex projeto_as"
-  "projeto_as.tex" 1649076993 6168 0bf7df2b3f2138546a3695b905ff88b0 ""
+  "projeto_as.aux" 1649092128 2248 988f6233608f05f034bacdb92e36ca98 "pdflatex"
+  "projeto_as.bbl" 1649092127 1402 4275b72014128cc31357113f31cc8e7e "bibtex projeto_as"
+  "projeto_as.tex" 1649092125 6257 49f2fe8db94dcd4bcb7d533f3cdd78a2 ""
   (generated)
   "projeto_as.aux"
   "projeto_as.log"
