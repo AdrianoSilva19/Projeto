@@ -8,5 +8,6 @@ Context and motivation
 6-genome metabolic models have been contructed taking advantage of the multi omics data gathered
 gsm takes advantage of the data generated and tries to construct a model for a determinated organism aiming to understand how it works or 
 seeking new combinations in its network of interactions that could benefit the human being
+7- problema de guardar os dados e da sua utilização na reconstrução de modelos
 -Lipid , problem with the representation in existing databases
 -Boimmg seeks to fill that gap 

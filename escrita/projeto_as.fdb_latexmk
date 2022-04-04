@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex projeto_as"] 1649008770 "projeto_as.aux" "projeto_as.bbl" "projeto_as" 1649009644
+["bibtex projeto_as"] 1649034608 "projeto_as.aux" "projeto_as.bbl" "projeto_as" 1649035239
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291868336 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "projeto_as.aux" 1649009644 2010 dc7566ca5c979b6873cce44a29358562 "pdflatex"
+  "projeto_as.aux" 1649035238 2010 dc2489a501fc674314add950042db059 "pdflatex"
   "referencias.bib" 1648918036 3818 3fe954c61a0a341bf26663a692977d7f ""
   (generated)
   "projeto_as.bbl"
   "projeto_as.blg"
-["pdflatex"] 1649009643 "c:/Users/ampsi/OneDrive/Ambiente de Trabalho/Projeto/Projeto/escrita/projeto_as.tex" "projeto_as.pdf" "projeto_as" 1649009644
+["pdflatex"] 1649035238 "c:/Users/ampsi/OneDrive/Ambiente de Trabalho/Projeto/Projeto/escrita/projeto_as.tex" "projeto_as.pdf" "projeto_as" 1649035239
   "C:/Users/ampsi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1647297123 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/ampsi/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0900.pk" 1647297133 10472 cef087521c16355fc24191b52c91f224 ""
   "C:/Users/ampsi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1647297128 10246961 2945a5d4e2648c75c2f4c9644d494c39 ""
@@ -19,6 +19,7 @@
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr9.tfm" 1136768653 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
+  "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsl10.tfm" 1136768653 1508 efecb4a315fe0975509670a272d75ef5 ""
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy9.tfm" 1136768653 1116 25a7bf822c58caf309a702ef79f4afbb ""
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
@@ -46,12 +47,12 @@
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1644218660 29921 d0acc05a38bd4aa3af2017f0b7c137ce ""
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/tex/latex/oberdiek/aliascnt.sty" 1637064316 2652 813491e2bc95c1dafbb39cd7c54b380b ""
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1636713860 32262 2bb622a0aa56c4a7a5cbdfe9d122c15a ""
-  "c:/Users/ampsi/OneDrive/Ambiente de Trabalho/Projeto/Projeto/escrita/projeto_as.tex" 1649009642 6082 58db11eb60b46b934600531517b06e04 ""
+  "c:/Users/ampsi/OneDrive/Ambiente de Trabalho/Projeto/Projeto/escrita/projeto_as.tex" 1649035236 6158 29208eba22ad5bb1d9a28a1bc3306a73 ""
   "fig1.eps" 1647288372 357553 7e2b7e710693198613c8426973a2c3ce ""
   "llncs.cls" 1647288372 42249 b08ec23e994470d7d8fc268d245cf555 ""
-  "projeto_as.aux" 1649009644 2010 dc7566ca5c979b6873cce44a29358562 "pdflatex"
-  "projeto_as.bbl" 1649008770 557 ea8c392e127f2843379e6ba6dd1fe2fa "bibtex projeto_as"
-  "projeto_as.tex" 1649009642 6082 58db11eb60b46b934600531517b06e04 ""
+  "projeto_as.aux" 1649035238 2010 dc2489a501fc674314add950042db059 "pdflatex"
+  "projeto_as.bbl" 1649034609 557 ea8c392e127f2843379e6ba6dd1fe2fa "bibtex projeto_as"
+  "projeto_as.tex" 1649035236 6158 29208eba22ad5bb1d9a28a1bc3306a73 ""
   (generated)
   "projeto_as.aux"
   "projeto_as.log"
