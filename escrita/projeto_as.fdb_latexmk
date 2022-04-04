@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex projeto_as"] 1649035513 "projeto_as.aux" "projeto_as.bbl" "projeto_as" 1649035514
+["bibtex projeto_as"] 1649076480 "projeto_as.aux" "projeto_as.bbl" "projeto_as" 1649076481
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291868336 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "projeto_as.aux" 1649035513 2010 dc2489a501fc674314add950042db059 "pdflatex"
-  "referencias.bib" 1648918036 3818 3fe954c61a0a341bf26663a692977d7f ""
+  "projeto_as.aux" 1649076481 2247 9e525d16a2f0397455236c126fdd3e59 "pdflatex"
+  "referencias.bib" 1649076404 11780 aa16f7601b52e2addac1ec1516f00f94 ""
   (generated)
   "projeto_as.bbl"
   "projeto_as.blg"
-["pdflatex"] 1649035513 "c:/Users/ampsi/OneDrive/Ambiente de Trabalho/Projeto/Projeto/escrita/projeto_as.tex" "projeto_as.pdf" "projeto_as" 1649035514
+["pdflatex"] 1649076480 "c:/Users/ampsi/OneDrive/Ambiente de Trabalho/Projeto/Projeto/escrita/projeto_as.tex" "projeto_as.pdf" "projeto_as" 1649076481
   "C:/Users/ampsi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1647297123 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/ampsi/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0900.pk" 1647297133 10472 cef087521c16355fc24191b52c91f224 ""
   "C:/Users/ampsi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1647297128 10246961 2945a5d4e2648c75c2f4c9644d494c39 ""
@@ -47,12 +47,12 @@
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1644218660 29921 d0acc05a38bd4aa3af2017f0b7c137ce ""
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/tex/latex/oberdiek/aliascnt.sty" 1637064316 2652 813491e2bc95c1dafbb39cd7c54b380b ""
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1636713860 32262 2bb622a0aa56c4a7a5cbdfe9d122c15a ""
-  "c:/Users/ampsi/OneDrive/Ambiente de Trabalho/Projeto/Projeto/escrita/projeto_as.tex" 1649035510 6171 e95fecb2dceb65a9780b82e2edc59a11 ""
+  "c:/Users/ampsi/OneDrive/Ambiente de Trabalho/Projeto/Projeto/escrita/projeto_as.tex" 1649076476 6167 588cd773c826de5d307ba7e4f1ecd584 ""
   "fig1.eps" 1647288372 357553 7e2b7e710693198613c8426973a2c3ce ""
   "llncs.cls" 1647288372 42249 b08ec23e994470d7d8fc268d245cf555 ""
-  "projeto_as.aux" 1649035513 2010 dc2489a501fc674314add950042db059 "pdflatex"
-  "projeto_as.bbl" 1649035513 557 ea8c392e127f2843379e6ba6dd1fe2fa "bibtex projeto_as"
-  "projeto_as.tex" 1649035510 6171 e95fecb2dceb65a9780b82e2edc59a11 ""
+  "projeto_as.aux" 1649076481 2247 9e525d16a2f0397455236c126fdd3e59 "pdflatex"
+  "projeto_as.bbl" 1649076480 1511 23fb8b6b13b7dd81e475d78de5d002c5 "bibtex projeto_as"
+  "projeto_as.tex" 1649076476 6167 588cd773c826de5d307ba7e4f1ecd584 ""
   (generated)
   "projeto_as.aux"
   "projeto_as.log"

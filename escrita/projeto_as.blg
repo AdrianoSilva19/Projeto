@@ -5,47 +5,49 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 16 items.
 Database file #1: referencias.bib
-Warning--empty journal in Artigo2
-Warning--empty year in Artigo2
-You've used 2 entries,
+Warning--empty journal in article5
+Warning--empty year in article5
+Warning--empty journal in article2
+Warning--empty year in article2
+You've used 6 entries,
             2118 wiz_defined-function locations,
-            511 strings with 4458 characters,
-and the built_in function-call counts, 655 in all, are:
-= -- 58
-> -- 36
+            536 strings with 5259 characters,
+and the built_in function-call counts, 1991 in all, are:
+= -- 177
+> -- 128
 < -- 0
-+ -- 14
-- -- 12
-* -- 52
-:= -- 119
-add.period$ -- 5
-call.type$ -- 2
-change.case$ -- 12
++ -- 50
+- -- 44
+* -- 162
+:= -- 360
+add.period$ -- 16
+call.type$ -- 6
+change.case$ -- 40
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 21
-empty$ -- 46
-format.name$ -- 12
-if$ -- 127
+cite$ -- 10
+duplicate$ -- 63
+empty$ -- 129
+format.name$ -- 44
+if$ -- 385
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 2
-newline$ -- 12
-num.names$ -- 4
-pop$ -- 14
+int.to.str$ -- 6
+missing$ -- 6
+newline$ -- 31
+num.names$ -- 12
+pop$ -- 40
 preamble$ -- 1
-purify$ -- 10
+purify$ -- 34
 quote$ -- 0
-skip$ -- 14
+skip$ -- 43
 stack$ -- 0
-substring$ -- 37
-swap$ -- 1
+substring$ -- 90
+swap$ -- 4
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
-warning$ -- 2
-while$ -- 5
-width$ -- 3
-write$ -- 20
-(There were 2 warnings)
+type$ -- 24
+warning$ -- 4
+while$ -- 15
+width$ -- 7
+write$ -- 60
+(There were 4 warnings)
