@@ -1,0 +1,31 @@
+- o que é a biologia de sistemas e o que estuda, uma frase apenas
+- usa modelos gsm ou estequeometricos, permitir as interações, a função
+- aplicabilidade, biocombustiveis com leveduras--exemplos
+- alterar o nome do artigo para o nome do autor
+- apenas dps falar high throuput, e desenvolver, crescer a um passo
+mais rapido do que reconstrução de modelos
+- quantidades de genomas dados de lcms hplc 
+- depois atacar realmente o problema, existem 6000 modelos metabolicos
+- so uma percentagem tem lipidos definidos
+- não ha lipidos mapeados base de dados, ferramenta de facto em italico (swiss lipids) - referencias para a base de dados
+entender o modelo 
+* resultou na reconstrução de X modelos (xines)
+- importancia de ter lipidos mapeados, interpertabilidade dos modelos
+- previsão de lipidos, melhor aplicabilidade
+### objetivo ###
+- integrar xyz bases de dados, numa base de dados base dados baseada
+em grafos
+- mapear os modelos 
+### estado da arte ###
+- retirar omics big data
+- o que é um lipido, como sao representados
+- subsecção de como representam, as genericas têm mapeamento e as outras não
+- modelo da big tem representação nos genericos e nos restantes não
+- rematar com um tem o nome outros não, este modelo tem tudo, um não tem nada, os que não tem nada são mais fidedignos
+para a previsão de lipidos pq tem anotações
+- o que poderiamos fazer para resolver
+- tentar fazer split do sinonimo ou do nome para ir buscar o backbone
+- esquema em que há uma falha na ligação das bds e o modelo
+- dificil anotar os lipidos e a geração das bds
+
+na sbml entrar com dyacil
