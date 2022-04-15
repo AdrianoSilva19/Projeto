@@ -1,31 +1,16 @@
 \begin{thebibliography}{1}
 
-\bibitem{article1}
-L.~Bornmann and R.~Mutz, ``Growth rates of modern science: A bibliometric
-  analysis based on the number of publications and cited references,'' {\em
-  Journal of the Association for Information Science and Technology}, vol.~66,
-  pp.~2215--2222, 11 2015.
-
-\bibitem{article3}
-A.~Passi, J.~D. Tibocha-Bonilla, M.~Kumar, D.~Tec-Campos, K.~Zengler, and
-  C.~Zuniga, ``Genome-scale metabolic modeling enables in-depth understanding
-  of big data,'' {\em Metabolites}, vol.~12, 1 2021.
-
-\bibitem{article2}
-J.~A.~V. Santen, S.~A. Kautsar, M.~H. Medema, and R.~G. Linington, ``Microbial
-  natural product databases: Moving forward in the multi-omics era hhs public
-  access,''
-
-\bibitem{article4}
+\bibitem{Zou2018}
 Y.~Zou and M.~D. Laubichler, ``From systems to biology: A computational
   analysis of the research articles on systems biology from 1992 to 2013,''
   {\em PLOS ONE}, vol.~13, p.~e0200929, 7 2018.
 
-\bibitem{article5}
-C.~Gu, G.~B. Kim, W.~J. Kim, H.~U. Kim, and S.~Y. Lee, ``Current status and
-  applications of genome-scale metabolic models,''
+\bibitem{Tavassoly2018}
+I.~Tavassoly, J.~Goldfarb, and R.~Iyengar, ``Systems biology primer: The basic
+  methods and approaches,'' {\em Essays in Biochemistry}, vol.~62,
+  pp.~487--500, 10 2018.
 
-\bibitem{article6}
+\bibitem{Aung2013}
 H.~W. Aung, S.~A. Henry, and L.~P. Walker, ``Revising the representation of
   fatty acid, glycerolipid, and glycerophospholipid metabolism in the consensus
   model of yeast metabolism,'' {\em Industrial Biotechnology}, vol.~9, p.~215,

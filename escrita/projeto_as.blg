@@ -5,49 +5,44 @@ Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
 Reallocating 'name_of_file' (item size: 1) to 16 items.
 Database file #1: referencias.bib
-Warning--empty journal in article2
-Warning--empty year in article2
-Warning--empty journal in article5
-Warning--empty year in article5
-You've used 6 entries,
+You've used 3 entries,
             1876 wiz_defined-function locations,
-            516 strings with 4736 characters,
-and the built_in function-call counts, 1497 in all, are:
-= -- 131
-> -- 78
+            506 strings with 4133 characters,
+and the built_in function-call counts, 912 in all, are:
+= -- 95
+> -- 30
 < -- 0
-+ -- 28
-- -- 22
-* -- 115
-:= -- 224
-add.period$ -- 4
-call.type$ -- 6
-change.case$ -- 6
++ -- 11
+- -- 8
+* -- 60
+:= -- 127
+add.period$ -- 3
+call.type$ -- 3
+change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 10
-duplicate$ -- 82
-empty$ -- 124
-format.name$ -- 22
-if$ -- 353
+cite$ -- 3
+duplicate$ -- 54
+empty$ -- 72
+format.name$ -- 8
+if$ -- 229
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 6
-newline$ -- 21
-num.names$ -- 6
-pop$ -- 21
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 12
+num.names$ -- 3
+pop$ -- 5
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 63
+skip$ -- 53
 stack$ -- 0
-substring$ -- 58
-swap$ -- 36
+substring$ -- 50
+swap$ -- 33
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
-while$ -- 10
-width$ -- 7
-write$ -- 53
-(There were 4 warnings)
+warning$ -- 0
+while$ -- 7
+width$ -- 4
+write$ -- 32
