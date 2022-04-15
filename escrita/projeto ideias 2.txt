@@ -1,11 +1,7 @@
 segundo paragrafo
 - ## quantidades de genomas dados de lcms hplc gu ##
-terceiro paragrafo  
-- depois atacar realmente o problema, existem 6000 modelos metabolicos
-- so uma percentagem tem lipidos definidos
+terceiro paragrafo  s
 - não ha lipidos mapeados base de dados, ferramenta de facto em italico (swiss lipids) - referencias para a base de dados
-entender o modelo 
-* resultou na reconstrução de X modelos (xines)
 quarto paragrafo
 - importancia de ter lipidos mapeados, interpertabilidade dos modelos
 - previsão de lipidos, melhor aplicabilidade
