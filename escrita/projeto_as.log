@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.14)  15 APR 2022 16:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.14)  15 APR 2022 20:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -212,9 +212,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {C:/Users/35193/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 87.
+(Font)              <9> on input line 97.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 87.
+(Font)              <6> on input line 97.
 Package epstopdf Info: Source file: <fig1.eps>
 (epstopdf)                    date: 2022-04-14 14:41:14
 (epstopdf)                    size: 357553 bytes
@@ -222,7 +222,7 @@ Package epstopdf Info: Source file: <fig1.eps>
 (epstopdf)                    date: 2022-04-14 14:41:14
 (epstopdf)                    size: 36490 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=fig1-eps-converted-to.pdf fig1.eps>
-(epstopdf)             \includegraphics on input line 111.
+(epstopdf)             \includegraphics on input line 121.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -230,21 +230,21 @@ pdfTeX warning: pdflatex (file ./fig1-eps-converted-to.pdf): PDF inclusion: foun
 <fig1-eps-converted-to.pdf, id=12, 345.29pt x 142.5325pt>
 File: fig1-eps-converted-to.pdf Graphic file (type pdf)
 <use fig1-eps-converted-to.pdf>
-Package pdftex.def Info: fig1-eps-converted-to.pdf  used on input line 111.
+Package pdftex.def Info: fig1-eps-converted-to.pdf  used on input line 121.
 (pdftex.def)             Requested size: 347.12354pt x 143.29115pt.
-(projeto_as.bbl [2]) [3 <./fig1-eps-converted-to.pdf>] (projeto_as.aux) ) 
+[2] (projeto_as.bbl [3 <./fig1-eps-converted-to.pdf>]) [4] (projeto_as.aux) ) 
 Here is how much of TeX's memory you used:
- 1783 strings out of 478582
- 28521 string characters out of 2844344
- 332460 words of memory out of 3000000
- 19985 multiletter control sequences out of 15000+600000
+ 1784 strings out of 478582
+ 28529 string characters out of 2844344
+ 331463 words of memory out of 3000000
+ 19986 multiletter control sequences out of 15000+600000
  474289 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,9n,62p,357b,253s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 55i,9n,62p,357b,268s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\35193\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on projeto_as.pdf (3 pages, 182925 bytes).
+Output written on projeto_as.pdf (4 pages, 187392 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
+ 78 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

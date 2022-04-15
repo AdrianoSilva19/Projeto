@@ -1,14 +1,5 @@
-primeiro paragrafo
-- o que é a biologia de sistemas e o que estuda? uma frase apenas
-In the past two decades Biology Systems as emerge as a discipline capable to examine biological systems from a complete, precise and efficient prespective.  
-Biology plays an important role in the unveiling of the cellular secrets that are needed to survive and thrive
-- usa modelos gsm ou estequeometricos, permitir as interações, a função
-- aplicabilidade, biocombustiveis com leveduras--exemplos
-#### alterar o nome do artigo para o nome do autor
 segundo paragrafo
-- apenas dps falar high throuput, e desenvolver, crescer a um passo
-mais rapido do que reconstrução de modelos
-- quantidades de genomas dados de lcms hplc
+- ## quantidades de genomas dados de lcms hplc gu ##
 terceiro paragrafo  
 - depois atacar realmente o problema, existem 6000 modelos metabolicos
 - so uma percentagem tem lipidos definidos
