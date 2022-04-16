@@ -17,8 +17,7 @@ what is a gsm, its aplications, sucinto
 
 ponto 2
 -representação computacional de lipidos
--- o que é um lipido, como é a sua estrutura
--- importancia dos lipidos
+-- como é a estrutura lipidica
 -- importancia de saber as estruturas dos lipidos
 -- como são geralmente representados nos modelos e os problemas associados
 
