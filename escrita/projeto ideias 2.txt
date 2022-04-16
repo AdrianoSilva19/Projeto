@@ -1,16 +1,4 @@
-segundo paragrafo
-- ## quantidades de genomas dados de lcms hplc gu ##
-terceiro paragrafo  s
-- não ha lipidos mapeados base de dados, ferramenta de facto em italico (swiss lipids) - referencias para a base de dados
-quarto paragrafo
-- importancia de ter lipidos mapeados, interpertabilidade dos modelos
-- previsão de lipidos, melhor aplicabilidade
-### objetivo ###
-- integrar xyz bases de dados, numa base de dados base dados baseada
-em grafos
-- mapear os modelos 
 ### estado da arte ###
-- retirar omics big data
 - o que é um lipido, como sao representados
 - subsecção de como representam, as genericas têm mapeamento e as outras não
 - modelo da big tem representação nos genericos e nos restantes não
@@ -22,3 +10,31 @@ para a previsão de lipidos pq tem anotações
 - dificil anotar os lipidos e a geração das bds
 
 na sbml entrar com dyacil
+
+state of art
+ponto 1
+what is a gsm, its aplications, sucinto
+
+ponto 2
+-representação computacional de lipidos
+-- o que é um lipido, como é a sua estrutura
+-- importancia dos lipidos
+-- importancia de saber as estruturas dos lipidos
+-- como são geralmente representados nos modelos e os problemas associados
+
+ponto 3 
+- Generic Representation in GSM models
+-- o que é a representação generica como é feita
+--- apenas com o backbone ( nome do backbone)
+--- no entanto apresentam cross references
+
+ponto 4
+- Structurally defined representation in GSM models
+-- o que é a representação defenida
+--- nome composto do backbone e das side chains
+--- interessantemente apesar de defenido este não tem cross referencias
+
+ponto 5
+- dar enfase há diferença entre as duas formas de representação, falta de anotações
+- esquema em que demonstramos a falta de ligação dos modelos há base de dados
+- dar uma possivel resolução do problema

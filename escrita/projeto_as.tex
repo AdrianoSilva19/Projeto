@@ -37,17 +37,17 @@ These approaches can guide to strain optimization and the production of a compou
 
 Impulsed by the advances and cost-effectiveness in technologies that led to high-throughput biological data (Big Data), Systems Biology, and more precisely the reconstruction of GSM models is gaining importance.
 The reconstruction of GSM models is taking advantage of the high-quality data generated to create better simulations and predictions. 
-In total, since the reconstruction of the first GSM model in 1999, 6239 GSM models were reconstructed until 2019 \cite{Gu2019}. 
+In total, since the reconstruction of the first GSM model in 1999 \cite{Edwards1999}, 6239 GSM models were reconstructed until 2019 \cite{Gu2019}. 
 Nonetheless, the pace of reconstruction of GSM models can't keep up with the growth of Big Data. The lack of integration of new data in GSM models is a problem inherent to this growth discrepancy.
 
 Besides the usefulness of these models, their reconstruction is limited due to the lack of biochemical and structural data incorporated.
 Complex macromolecules are often represented in their generic version not giving any biochemical and structural information.
-Particularly in the case of lipids, only a small chunk of GSM models reconstructed have defined lipids. 
+Particularly in the case of lipids\cite{Aung2013}, only a small chunk of GSM models reconstructed have defined lipids. 
 These models neglect the fact that each subclass is constituted of a countless number of combinations between the different components of the lipid. 
 Thus the GSM models in these conditions are not able to capture the integrity of lipid biosynthesis network.
 Therefore it is important the integration of such information in lipidic models, for a better interpertability, handling and predictions.
 
-Integration of the structural information can be done by taking advantage of the  \emph{de facto} tools such as SWISS LIPIDS and  LIPID MPAS [referencia aos sites].
+Integration of the structural information can be done by taking advantage of the  \emph{de facto} tools such as SWISS LIPIDS \cite{Aimo2015} and  LIPID MAPS \cite{Sud2007}.
 As mentioned above this is important to the reliability of the model allowing credible predictions and flexibility in the management of the model.
 This can turn into a major advancement in lipid models with better application in industry, such as in the case of lipidic biofuels.
 
@@ -55,16 +55,27 @@ This can turn into a major advancement in lipid models with better application i
 
 
 \subsection{Objective}
-- integrar xyz bases de dados, numa base de dados base dados baseada
-em grafos
-- mapear os modelos 
+
+The main objetive of this project is to integrate structural data, from \emph{de facto} tools SWISS LIPIDS and LIPID MAPS, into a graph-based database BOIMMG.
+For that, it will be done an itegration of the synonyms and abbreviations into a new label using ETL pipelines. 
+
 \section{State of art}
-\subsection{GSM}
-explicar o que é GSM
+\subsection{Genome Scale Metabolic Models}
+The use of computational tools brings to the science new tools to face the challenges in the scientific scope.
+Among them are GSM models, a computational tool that conjugate biochemical and genomic data from an organism, with the capacity to do \emph{in silico} predictions of a given organism phenotype in specific environmental and genetic conditions \cite{Rocha2007,Zhou2021}.
+
+Thus these models are key to the contextualization of high throughput data and helpful in many other applications such as metabolic engineering, production of biochemicals and bio-materials, prediction of enzyme functions, or even in the discovery of drug targets\cite{Gu2019,Kim2017}.
+It is therefore important to integrate fresh and reliable biochemical data in the reconstruction of this models to ensure their accuracy and further atualization \cite{Moseley2021,Passi2021}. 
+
 
 \subsection{Lipid computational representation}
 
 - Generic/structurally defined duality
+-- o que é um lipido, como é a sua estrutura
+-- importancia dos lipidos
+-- importancia de saber as estruturas dos lipidos
+-- como são geralmente representados nos modelos, dualidade generica ou estrutural
+
 
 \subsection{Generic Representation in GSM models}
 
