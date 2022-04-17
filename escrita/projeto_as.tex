@@ -33,7 +33,7 @@ The abstract should briefly summarize the contents of the paper in
 In the past two decades, Systems Biology has emerged as a discipline capable of integrating molecular biological knowledge into an understanding at a system level, from a complete, precise, and efficient perspective.
 Biological systems represent a huge amount of data, with the need to be treated and contextualized where this discipline comes to the aid.  
 Whether in the construction of stochiometric models or the reconstruction of genome scale metabolic models (GSM), with means to understand the genomic, biochemical, and physiological knowledge gathered \cite{Zou2018,Tavassoly2018}. 
-These approaches can guide to strain optimization and the production of a compound with industrial interest, such as lipidic biofuel produced by optimized yeasts and microalgae \cite{Aung2013}.
+These approaches can guide to strain optimization and the production of a compound with industrial interest, such as lipidic biofuel produced by optimized yeasts and microalgae \cite{Sawangkeaw2013}.
 
 Impulsed by the advances and cost-effectiveness in technologies that led to high-throughput biological data (Big Data), Systems Biology, and more precisely the reconstruction of GSM models is gaining importance.
 The reconstruction of GSM models is taking advantage of the high-quality data generated to create better simulations and predictions. 
@@ -41,23 +41,23 @@ In total, since the reconstruction of the first GSM model in 1999 \cite{Edwards1
 Nonetheless, the pace of reconstruction of GSM models can't keep up with the growth of Big Data. The lack of integration of new data in GSM models is a problem inherent to this growth discrepancy.
 
 Besides the usefulness of these models, their reconstruction is limited due to the lack of biochemical and structural data incorporated.
-Complex macromolecules are often represented in their generic version not giving any biochemical and structural information.
-Particularly in the case of lipids\cite{Aung2013}, only a small chunk of GSM models reconstructed have defined lipids. 
-These models neglect the fact that each subclass is constituted of a countless number of combinations between the different components of the lipid. 
-Thus the GSM models in these conditions are not able to capture the integrity of lipid biosynthesis network.
-Therefore it is important the integration of such information in lipidic models, for a better interpertability, handling and predictions.
+Complex macromolecules are often represented in their generic version not giving any biochemical and structural information \cite{Gu2019}.
+Particularly in the case of lipids, only a small chunk of GSM models reconstructed have structurally defined lipids. 
+These models neglect the fact that each class is constituted of a countless number of combinations between the different components of the lipid. 
+Thus the GSM models in these conditions are not able to capture the integrity of the lipid biosynthesis network.
+Therefore it is important the integration of such information into lipidic models, for better interpretability, handling, and predictions.
 
 Integration of the structural information can be done by taking advantage of the  \emph{de facto} tools such as SWISS LIPIDS \cite{Aimo2015} and  LIPID MAPS \cite{Sud2007}.
 As mentioned above this is important to the reliability of the model allowing credible predictions and flexibility in the management of the model.
-This can turn into a major advancement in lipid models with better application in industry, such as in the case of lipidic biofuels.
+This can turn into a major advancement in lipid models with better application in industry, such as in the case of lipidic biofuels \cite{Sawangkeaw2013}.
 
 
 
 
 \subsection{Objective}
 
-The main objetive of this project is to integrate structural data, from \emph{de facto} tools SWISS LIPIDS and LIPID MAPS, into a graph-based database BOIMMG.
-For that, it will be done an itegration of the synonyms and abbreviations into a new label using ETL pipelines. 
+The main objective of this project is to integrate structural data, from \emph{de facto} tools SWISS LIPIDS and LIPID MAPS, into a graph-based database BOIMMG.
+For that, it will be done through the integration of the synonyms and abbreviations into a new label using ETL pipelines. 
 
 \section{State of art}
 \subsection{Genome Scale Metabolic Models}
@@ -65,7 +65,7 @@ The use of computational tools brings to the science new tools to face the chall
 Among them are GSM models, a computational tool that conjugate biochemical and genomic data from an organism, with the capacity to do \emph{in silico} predictions of a given organism phenotype in specific environmental and genetic conditions \cite{Rocha2007,Zhou2021}.
 
 Thus these models are key to the contextualization of high throughput data and helpful in many other applications such as metabolic engineering, production of biochemicals and bio-materials, prediction of enzyme functions, or even in the discovery of drug targets\cite{Gu2019,Kim2017}.
-It is therefore important to integrate fresh and reliable biochemical data in the reconstruction of this models to ensure their accuracy and further atualization \cite{Moseley2021,Passi2021}. 
+It is therefore important to integrate fresh and reliable biochemical data in the reconstruction of these models to ensure their accuracy and further actualization \cite{Moseley2021,Passi2021}. 
 
 
 \subsection{Lipid computational representation}
@@ -73,16 +73,25 @@ Lipids are a unique macromolecule grouped into different classes accordingly to 
 This characteristic allows the generation of micelles in a hydrophilic environment, which is important for their biological roles such as being the principal cell membrane components, energy storage, and signaling molecules.
 
 Structurally it is impossible to say how many distinct lipids are due to the multitude of arrangements that can make a different structure \cite{Gyamfi2018}. 
-The definition of the lipid class is well-established, existing already many main classes defined {Fahy2011}.
-Lipids can be split into two different parts the backbone, and the side chain. The first one gives the lipid the name of the class, remaining the same to the whole lipids in the same class.
+The definition of the lipid class is well-established, existing already eight main classes are defined \cite{Fahy2011}.
+These can be split into two different parts the backbone, and the side chain represented in Fig.~\ref{fig1}. The first one gives the lipid the name of the class, remaining the same to the whole lipids in the same class.
 In the case of side chains, their structure can vary in the same class, giving rise to new subclasses.
 
+\begin{figure}
+    \includegraphics[width=\textwidth]{imagens/lipido.png}
+    \caption{Representation of 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol structure extracted from LIPID MAPS.The backbone is the hydrophilic part of the lipid while the side chains confer hydrophobicity.} \label{fig1}
+\end{figure}
+
+The grown importance of this macromolecule in health research and industrial applications brings more than ever the need to characterize their metabolic network and roles in cells.
+Due to the immense amount of reactions, and complex biosynthetic pathways in that lipids play a role, it is almost impossible to study them in classical means \cite{Schutzhold}.
+
+Computational approaches can help disentangle these complications however, lipid representation is not always well implemented.
+Despite the existence of lipid databases with defined structures, computational representation is often done generically \cite{Aung2013}. 
+This means that the representation in computational approaches is only given by the backbone name, remaining the side chains as simple R groups.
+Given the importance of the structure in metabolic interactions, this hides information not allowing to achieve the full potential of these approaches.
 
 \subsection{Generic Representation in GSM models}
 
-- Lipid only with the backbone; 
-- Name of the backbone;
-- Databases cross-references;
 
 \subsection{Structurally defined representation in GSM models}
 
@@ -99,65 +108,16 @@ In the case of side chains, their structure can vary in the same class, giving r
     Anotação de modelos:
         - match direto
         - decomposição do nome em dois (backbone e side chain) - queries à base de dados
-
-\subsubsection{Sample Heading (Third Level)} Only two levels of
-headings should be numbered. Lower level headings remain unnumbered;
-they are formatted as run-in headings.
-
-\paragraph{Sample Heading (Fourth Level)}
-The contribution should contain no more than four levels of
-headings. Table~\ref{tab1} gives a summary of all heading levels.
-
-\begin{table}
-\caption{Table captions should be placed above the
-tables.}\label{tab1}
-\begin{tabular}{|l|l|l|}
-\hline
-Heading level &  Example & Font size and style\\
-\hline
-Title (centered) &  {\Large\bfseries Lecture Notes} & 14 point, bold\\
-1st-level heading &  {\large\bfseries 1 Introduction} & 12 point, bold\\
-2nd-level heading & {\bfseries 2.1 Printing Area} & 10 point, bold\\
-3rd-level heading & {\bfseries Run-in Heading in Bold.} Text follows & 10 point, bold\\
-4th-level heading & {\itshape Lowest Level Heading.} Text follows & 10 point, italic\\
-\hline
-\end{tabular}
-\end{table}
-
-
-\noindent Displayed equations are centered and set on a separate
-line.
-\begin{equation}
-x + y = z
-\end{equation}
-Please try to avoid rasterized images for line-art diagrams and
-schemas. Whenever possible, use vector graphics instead (see
-Fig.~\ref{fig1}).
-
 \begin{figure}
-\includegraphics[width=\textwidth]{fig1.eps}
-\caption{A figure caption is always placed below the illustration.
-Please note that short captions are centered, while long ones are
-justified by the macro package automatically.} \label{fig1}
+    \includegraphics[width=\textwidth]{imagens/ETL.png}
+    \caption{Escheme of the process done with ETL pipeline.
+    First gather data from conventional databases
+    then processes that data
+    and finally integrates the data in our database.} \label{fig2}    
 \end{figure}
 
-\begin{theorem}
-This is a sample theorem. The run-in heading is set in bold, while
-the following text appears in italics. Definitions, lemmas,
-propositions, and corollaries are styled the same way.
-\end{theorem}
-%
-% the environments 'definition', 'lemma', 'proposition', 'corollary',
-% 'remark', and 'example' are defined in the LLNCS documentclass as well.
-%
-\begin{proof}
-Proofs, examples, and remarks have the initial word in italics,
-while the following text appears in normal font.
-\end{proof}
-For citations of references, we prefer the use of square brackets
-and consecutive numbers. Citations using labels or the author/year
-convention are also acceptable. The following bibliography provides
-a sample reference list with entries for journal
+
+
 
 
 \bibliographystyle{ieeetr}

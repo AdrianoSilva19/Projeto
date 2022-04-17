@@ -10,11 +10,10 @@ I.~Tavassoly, J.~Goldfarb, and R.~Iyengar, ``Systems biology primer: The basic
   methods and approaches,'' {\em Essays in Biochemistry}, vol.~62,
   pp.~487--500, 10 2018.
 
-\bibitem{Aung2013}
-H.~W. Aung, S.~A. Henry, and L.~P. Walker, ``Revising the representation of
-  fatty acid, glycerolipid, and glycerophospholipid metabolism in the consensus
-  model of yeast metabolism,'' {\em Industrial Biotechnology}, vol.~9, p.~215,
-  8 2013.
+\bibitem{Sawangkeaw2013}
+R.~Sawangkeaw and S.~Ngamprasertsith, ``A review of lipid-based biomasses as
+  feedstocks for biofuels production,'' {\em Renewable and Sustainable Energy
+  Reviews}, vol.~25, pp.~97--108, 9 2013.
 
 \bibitem{Edwards1999}
 J.~S. Edwards and B.~O. Palsson, ``Systems properties of the haemophilus
@@ -68,5 +67,21 @@ A.~Passi, J.~D. Tibocha-Bonilla, M.~Kumar, D.~Tec-Campos, K.~Zengler, and
 D.~Gyamfi, E.~O. Awuah, and S.~Owusu, ``Classes, nomenclature, and functions of
   lipids and lipid-related molecules and the dietary lipids,'' {\em The
   Molecular Nutrition of Fats}, pp.~3--16, 1 2018.
+
+\bibitem{Fahy2011}
+E.~Fahy, D.~Cotter, M.~Sud, and S.~Subramaniam, ``Lipid classification,
+  structures and tools,'' {\em Biochimica et biophysica acta}, vol.~1811,
+  p.~637, 11 2011.
+
+\bibitem{Schutzhold}
+V.~Schützhold, J.~Hahn, K.~Tummler, and E.~Klipp, ``Computational modeling of
+  lipid metabolism in yeast,'' {\em Frontiers in Molecular Biosciences},
+  vol.~3, p.~57, 9 2016.
+
+\bibitem{Aung2013}
+H.~W. Aung, S.~A. Henry, and L.~P. Walker, ``Revising the representation of
+  fatty acid, glycerolipid, and glycerophospholipid metabolism in the consensus
+  model of yeast metabolism,'' {\em Industrial Biotechnology}, vol.~9, p.~215,
+  8 2013.
 
 \end{thebibliography}

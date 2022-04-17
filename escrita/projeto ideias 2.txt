@@ -16,10 +16,7 @@ ponto 1
 what is a gsm, its aplications, sucinto
 
 ponto 2
--representação computacional de lipidos
--- como é a estrutura lipidica
--- importancia de saber as estruturas dos lipidos
--- como são geralmente representados nos modelos e os problemas associados
+falar dos varios tipos de representação computacional?????
 
 ponto 3 
 - Generic Representation in GSM models
