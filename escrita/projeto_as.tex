@@ -20,10 +20,10 @@ Emanuel Cunha\inst{1}}
 \maketitle              % typeset the header of the contribution
 %
 \begin{abstract}
-The abstract should briefly summarize the contents of the paper in
-15--250 words.
+Systems Biology is gaining importance in the unveil of cellular secrets. More precisely GSM models allow the contextualization of omic data and the progress of genomic engineering.
+Still, the lack of macromolecule structural defined representation, such as lipids, is glaring.
 
-\keywords{First keyword  \and Second keyword \and Another keyword.}
+\keywords{Genome-Scale Metabolic Models  \and Lipids.}
 \end{abstract}
 %
 %
@@ -91,13 +91,18 @@ This means that the representation in computational approaches is only given by 
 Given the importance of the structure in metabolic interactions, this hides information not allowing to achieve the full potential of these approaches.
 
 \subsection{Generic Representation in GSM models}
+In GSM models the representation of lipids is often generic (figura com a representação generica de um modelo?). This representation neglects the fact that side chains are important components in the lipid metabolic network.
+Based on this representation, we cannot access the specific lipid used in a hypothetic metabolic network due to the number of lipids with the same backbone name.
+Besides that, is almost impossible to say how accurate are the predictions to the successor lipids, or even to the one that ours came from \cite{Aung2013}.
 
+The capacity to interchange side chains and form new lipids, with probable new metabolic interactions, turns this type of representation not helpful in acknowledging the lipidic metabolic network.
+Interestingly, we can still see the presence of cross-references to databases with the structure of these macromolecules. However, the same structure serves many lipids due to its generic input.
 
 \subsection{Structurally defined representation in GSM models}
-
-- Lipid with the whole structure
-- Name composed of backbone and side chains
-- No databases cross-references
+Contrary to the generic representation seeing defined ones in GSM models is not usual. Only a few chunks of the reconstructed GSM models have lipids structurally defined.
+Here, after the backbone name, is defined the constitution of the side chains is a second part of the lipid structure. This constitution is defined using the number of carbons in the chain followed by the number of double bonds and their conformation for each side chain (figura a demonstrar esta representação??).
+Starting from the idea that GSM models with defined lipids are more reliable, this is a better way to represent their structure in these models. 
+Besides that, we can witness a lack of references, which is not ideal for lipid structural confirmation.
 
 \subsection{Lack in lipid annotation in GSM models}
 

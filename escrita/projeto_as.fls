@@ -147,6 +147,7 @@ INPUT C:\Users\35193\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tf
 OUTPUT projeto_as.pdf
 INPUT C:\Users\35193\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\35193\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Users\35193\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsl10.tfm
 INPUT .\imagens\lipido.png
 INPUT .\imagens\lipido.png
 INPUT imagens\lipido.png
@@ -154,7 +155,6 @@ INPUT .\imagens\lipido.png
 INPUT .\imagens\lipido.png
 INPUT .\imagens\lipido.png
 INPUT .\imagens\lipido.png
-INPUT C:\Users\35193\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsl10.tfm
 INPUT .\imagens\ETL.png
 INPUT .\imagens\ETL.png
 INPUT imagens\ETL.png
