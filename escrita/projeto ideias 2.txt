@@ -34,3 +34,12 @@ ponto 5
 - dar enfase há diferença entre as duas formas de representação, falta de anotações
 - esquema em que demonstramos a falta de ligação dos modelos há base de dados
 - dar uma possivel resolução do problema
+
+
+no iLB1027 (defenifos): (entrar com sn-glycerol)
+1,2-Diacyl-sn-glycerol (dihexadec-9-enoyl, n-C16:1)
+1,2-Diacyl-sn-glycerol (dioctadecanoyl, n-C18:0)
+estes tem ref a metabolitos e á estrutura mas a maioria apenas tem aos metabolitos
+
+no tgondii (genericos): mesma entrada
+todos tem apenas um ref para a estrutura, no entanto ao verificar é a mesma estrutura para muitos

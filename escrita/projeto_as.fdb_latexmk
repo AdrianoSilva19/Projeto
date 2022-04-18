@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex projeto_as"] 1650238901 "projeto_as.aux" "projeto_as.bbl" "projeto_as" 1650240561
+["bibtex projeto_as"] 1650293880 "projeto_as.aux" "projeto_as.bbl" "projeto_as" 1650295196
   "C:/Users/35193/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291867944 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "projeto_as.aux" 1650240561 2852 953011c1fa7d58c36feae99f1898e735 "pdflatex"
+  "projeto_as.aux" 1650295196 2925 381dcb96ba76a2709fb328dbebd55b27 "pdflatex"
   "referencias.bib" 1650212880 33735 d418927522d1b33b1468f27734ef4c00 ""
   (generated)
   "projeto_as.bbl"
   "projeto_as.blg"
-["pdflatex"] 1650240560 "c:/Users/35193/Desktop/projeto/Projeto/escrita/projeto_as.tex" "projeto_as.pdf" "projeto_as" 1650240561
+["pdflatex"] 1650295195 "c:/Users/35193/Desktop/projeto/Projeto/escrita/projeto_as.tex" "projeto_as.pdf" "projeto_as" 1650295196
   "C:/Users/35193/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1649952174 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/35193/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0900.pk" 1649952603 10472 9499ec26b87707964ead9af1ab8a92b4 ""
   "C:/Users/35193/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1649952600 10246961 258a8777d6e4b373c957715cd22bc267 ""
@@ -41,13 +41,13 @@
   "C:/Users/35193/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1644218660 29921 d0acc05a38bd4aa3af2017f0b7c137ce ""
   "C:/Users/35193/AppData/Local/Programs/MiKTeX/tex/latex/oberdiek/aliascnt.sty" 1637064316 2652 813491e2bc95c1dafbb39cd7c54b380b ""
   "C:/Users/35193/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1636713860 32262 2bb622a0aa56c4a7a5cbdfe9d122c15a ""
-  "c:/Users/35193/Desktop/projeto/Projeto/escrita/projeto_as.tex" 1650240559 10134 4d5cc902944ca21dbc4cad5351f18b95 ""
+  "c:/Users/35193/Desktop/projeto/Projeto/escrita/projeto_as.tex" 1650295194 10880 c02aecf08a0d411239edb951b73b2cae ""
   "imagens/ETL.png" 1650202148 108612 bfc58c8d389f478924c523e72bec5db9 ""
   "imagens/lipido.png" 1650204235 94560 3ffb39a67458cdf3f9b66257f135787b ""
   "llncs.cls" 1649943674 43467 b08ec23e994470d7d8fc268d245cf555 ""
-  "projeto_as.aux" 1650240561 2852 953011c1fa7d58c36feae99f1898e735 "pdflatex"
-  "projeto_as.bbl" 1650238901 3797 c4be67a05c0d9b142c0e02a25a484aa8 "bibtex projeto_as"
-  "projeto_as.tex" 1650240559 10134 4d5cc902944ca21dbc4cad5351f18b95 ""
+  "projeto_as.aux" 1650295196 2925 381dcb96ba76a2709fb328dbebd55b27 "pdflatex"
+  "projeto_as.bbl" 1650293880 3797 c4be67a05c0d9b142c0e02a25a484aa8 "bibtex projeto_as"
+  "projeto_as.tex" 1650295194 10880 c02aecf08a0d411239edb951b73b2cae ""
   (generated)
   "projeto_as.aux"
   "projeto_as.log"

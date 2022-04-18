@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.14)  18 APR 2022 01:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.14)  18 APR 2022 16:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -214,27 +214,27 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <imagens/lipido.png, id=16, 1141.26375pt x 371.88937pt>
 File: imagens/lipido.png Graphic file (type png)
 <use imagens/lipido.png>
-Package pdftex.def Info: imagens/lipido.png  used on input line 81.
+Package pdftex.def Info: imagens/lipido.png  used on input line 85.
 (pdftex.def)             Requested size: 347.12354pt x 113.11115pt.
  [3 <./imagens/lipido.png>]
 <imagens/ETL.png, id=22, 869.49844pt x 374.14781pt>
 File: imagens/ETL.png Graphic file (type png)
 <use imagens/ETL.png>
-Package pdftex.def Info: imagens/ETL.png  used on input line 117.
+Package pdftex.def Info: imagens/ETL.png  used on input line 130.
 (pdftex.def)             Requested size: 347.12354pt x 149.371pt.
- (projeto_as.bbl [4 <./imagens/ETL.png>]) [5] (projeto_as.aux) ) 
+ (projeto_as.bbl [4] [5 <./imagens/ETL.png>]) [6] (projeto_as.aux) ) 
 Here is how much of TeX's memory you used:
  1790 strings out of 478582
  28627 string characters out of 2844344
- 334506 words of memory out of 3000000
+ 331506 words of memory out of 3000000
  19995 multiletter control sequences out of 15000+600000
  472765 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,7n,62p,389b,266s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 55i,7n,62p,438b,269s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\35193\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on projeto_as.pdf (5 pages, 264755 bytes).
+Output written on projeto_as.pdf (6 pages, 266042 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
