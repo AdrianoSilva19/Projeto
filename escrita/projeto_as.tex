@@ -27,7 +27,7 @@ Still, the lack of macromolecule structural defined representation, such as lipi
 
 -- Resolution
 
-\keywords{Genome-Scale Metabolic Models  \and Lipids.}
+\keywords{Genome-Scale Metabolic Models  \and Lipids representation.}
 \end{abstract}
 %
 %
@@ -36,7 +36,7 @@ Still, the lack of macromolecule structural defined representation, such as lipi
 \subsection{Context and motivation}
 In the past two decades, Systems Biology has emerged as a discipline capable of integrating molecular biological knowledge into an understanding at a system level, from a complete, precise, and efficient perspective.
 Biological systems represent a huge amount of data, with the need to be treated and contextualized where this discipline comes to the aid.  
-Whether in the construction of stochiometric models or the reconstruction of genome scale metabolic models (GSM), with means to understand the genomic, biochemical, and physiological knowledge gathered \cite{Zou2018,Tavassoly2018}. 
+Whether in the construction of stochiometric models or the reconstruction of genome scale metabolic models (GSM), giving means to understand the genomic, biochemical, and physiological knowledge gathered \cite{Zou2018,Tavassoly2018}. 
 These approaches can guide to strain optimization and the production of a compound with industrial interest, such as lipidic biofuel produced by optimized yeasts and microalgae \cite{Sawangkeaw2013}.
 
 Impulsed by the advances and cost-effectiveness in technologies that led to high-throughput biological data (Big Data), Systems Biology, and more precisely the reconstruction of GSM models is gaining importance.
@@ -45,7 +45,7 @@ In total, since the reconstruction of the first GSM model in 1999 \cite{Edwards1
 Nonetheless, the pace of reconstruction of GSM models can't keep up with the growth of Big Data. The lack of integration of new data in GSM models is a problem inherent to this growth discrepancy.
 
 Besides the usefulness of these models, their reconstruction is limited due to the lack of biochemical and structural data incorporated.
-Complex macromolecules are often represented in their generic version not giving any biochemical and structural information \cite{Gu2019}.
+More precisely, complex macromolecules are often represented in their generic version not giving any biochemical and structural information \cite{Gu2019}.
 Particularly in the case of lipids, only a small chunk of GSM models reconstructed have structurally defined lipids. 
 These models neglect the fact that each class is constituted of a countless number of combinations between the different components of the lipid. 
 Thus the GSM models in these conditions are not able to capture the integrity of the lipid biosynthesis network.
@@ -95,7 +95,8 @@ This means that the representation in computational approaches is only given by 
 Given the importance of the structure in metabolic interactions, this hides information not allowing to achieve the full potential of these approaches.
 
 \subsection{Generic Representation in GSM models}
-To reduce the complexity of the implementation, due to lipidic complex structures and their high variability, lipid representation on GSM models is often generic (figura com a representação generica de um modelo?). This representation neglects the fact that side chains are important components in the lipid metabolic network \cite{Fahy2011,Schutzhold}.
+Due to lipidic complex structures, their high variability and to reduce the complexity of the implementation, lipid representation on GSM models is often generic (figura com a representação generica de um modelo?). 
+This representation neglects the fact that side chains are important components in the lipid metabolic network \cite{Fahy2011,Schutzhold}.
 
 Accordingly, biosynthetic pathways are represented in generic terms, with generic lipids as reactants and products.
 Based on this, we cannot access the specific lipid used in an hypothetic biosynthetic network due to the number of lipids represented with the same backbone name.
