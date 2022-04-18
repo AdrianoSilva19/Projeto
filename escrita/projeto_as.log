@@ -1,17 +1,17 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.14)  18 APR 2022 16:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.14)  18 APR 2022 19:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/35193/Desktop/projeto/Projeto/escrita/projeto_as.tex
-(c:/Users/35193/Desktop/projeto/Projeto/escrita/projeto_as.tex
+**"c:/Users/ampsi/OneDrive/Ambiente de Trabalho/Projrto_bioinf/Projeto/escrita/projeto_as.tex"
+(c:/Users/ampsi/OneDrive/Ambiente de Trabalho/Projrto_bioinf/Projeto/escrita/projeto_as.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (llncs.cls
 Document Class: llncs 2018/03/10 v2.20 
  LaTeX document class for Lecture Notes in Computer Science
-(C:\Users\35193\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+(C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Users\35193\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+(C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
@@ -25,7 +25,7 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-) (C:\Users\35193\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+) (C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \c@tracingmulticols=\count193
 \mult@box=\box50
@@ -93,7 +93,7 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \mult@nat@firstbox=\box93
 \colbreak@box=\box94
 \mc@col@check@num=\count268
-) (C:\Users\35193\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\aliascnt.sty
+) (C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\aliascnt.sty
 Package: aliascnt 2018/09/07 v1.5 Alias counters (HO)
 )
 \c@chapter=\count269
@@ -146,25 +146,25 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
 \c@solution=\count287
 \c@remark=\count288
 \headlineindent=\dimen160
-) (C:\Users\35193\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\35193\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
-) (C:\Users\35193\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+) (C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\35193\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (C:\Users\35193\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\Users\35193\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen161
 \Gin@req@width=\dimen162
-) (C:\Users\35193\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+) (C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count289
 \l__pdf_internal_box=\box97
@@ -185,7 +185,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
- (C:\Users\35193\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+ (C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count290
 \scratchdimen=\dimen163
@@ -198,10 +198,10 @@ LaTeX Font Info:    ... okay on input line 9.
 \MPnumerator=\count294
 \makeMPintoPDFobject=\count295
 \everyMPtoPDFconversion=\toks22
-) (C:\Users\35193\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\35193\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+ (C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -210,7 +210,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 20.
  [1
 
-{C:/Users/35193/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
+{C:/Users/ampsi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
 <imagens/lipido.png, id=16, 1141.26375pt x 371.88937pt>
 File: imagens/lipido.png Graphic file (type png)
 <use imagens/lipido.png>
@@ -220,19 +220,19 @@ Package pdftex.def Info: imagens/lipido.png  used on input line 85.
 <imagens/ETL.png, id=22, 869.49844pt x 374.14781pt>
 File: imagens/ETL.png Graphic file (type png)
 <use imagens/ETL.png>
-Package pdftex.def Info: imagens/ETL.png  used on input line 133.
+Package pdftex.def Info: imagens/ETL.png  used on input line 134.
 (pdftex.def)             Requested size: 347.12354pt x 149.371pt.
  (projeto_as.bbl [4] [5 <./imagens/ETL.png>]) [6] (projeto_as.aux) ) 
 Here is how much of TeX's memory you used:
  1790 strings out of 478582
- 28627 string characters out of 2844344
- 330506 words of memory out of 3000000
+ 28894 string characters out of 2844344
+ 331506 words of memory out of 3000000
  19995 multiletter control sequences out of 15000+600000
  472765 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,7n,62p,438b,267s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\35193\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/35193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on projeto_as.pdf (6 pages, 265922 bytes).
+ 55i,7n,62p,414b,267s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\ampsi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on projeto_as.pdf (6 pages, 265916 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
