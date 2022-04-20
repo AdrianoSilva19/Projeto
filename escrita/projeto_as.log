@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.14)  18 APR 2022 19:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.14)  20 APR 2022 23:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -208,31 +208,40 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 20.
- [1
+
+Overfull \hbox (0.68263pt too wide) in paragraph at lines 42--45
+\OT1/cmr/m/n/10 by the ad-vances and cost-effectiveness in tech-nolo-gies that led to high-throughput
+ []
+
+[1
 
 {C:/Users/ampsi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
+Overfull \hbox (0.62723pt too wide) in paragraph at lines 79--81
+\OT1/cmr/m/n/10 main classes:Fatty acyls,Glycerolipids,Glycerophospholipids,Sphingolipids,Sterol
+ []
+
 <imagens/lipido.png, id=16, 1141.26375pt x 371.88937pt>
 File: imagens/lipido.png Graphic file (type png)
 <use imagens/lipido.png>
-Package pdftex.def Info: imagens/lipido.png  used on input line 85.
+Package pdftex.def Info: imagens/lipido.png  used on input line 83.
 (pdftex.def)             Requested size: 347.12354pt x 113.11115pt.
- [3 <./imagens/lipido.png>]
+[3 <./imagens/lipido.png>]
 <imagens/ETL.png, id=22, 869.49844pt x 374.14781pt>
 File: imagens/ETL.png Graphic file (type png)
 <use imagens/ETL.png>
-Package pdftex.def Info: imagens/ETL.png  used on input line 134.
+Package pdftex.def Info: imagens/ETL.png  used on input line 132.
 (pdftex.def)             Requested size: 347.12354pt x 149.371pt.
  (projeto_as.bbl [4] [5 <./imagens/ETL.png>]) [6] (projeto_as.aux) ) 
 Here is how much of TeX's memory you used:
- 1790 strings out of 478582
- 28894 string characters out of 2844344
- 331506 words of memory out of 3000000
- 19995 multiletter control sequences out of 15000+600000
+ 1793 strings out of 478582
+ 28925 string characters out of 2844344
+ 330514 words of memory out of 3000000
+ 19998 multiletter control sequences out of 15000+600000
  472765 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,7n,62p,414b,267s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 55i,7n,62p,666b,267s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\ampsi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on projeto_as.pdf (6 pages, 265916 bytes).
+Output written on projeto_as.pdf (6 pages, 267478 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

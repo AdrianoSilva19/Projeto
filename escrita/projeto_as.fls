@@ -144,9 +144,9 @@ INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm090
 INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 OUTPUT projeto_as.pdf
 INPUT C:\Users\ampsi\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\Users\ampsi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsl10.tfm
 INPUT .\imagens\lipido.png
 INPUT .\imagens\lipido.png

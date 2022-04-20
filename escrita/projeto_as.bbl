@@ -15,15 +15,15 @@ R.~Sawangkeaw and S.~Ngamprasertsith, ``A review of lipid-based biomasses as
   feedstocks for biofuels production,'' {\em Renewable and Sustainable Energy
   Reviews}, vol.~25, pp.~97--108, 9 2013.
 
-\bibitem{Edwards1999}
-J.~S. Edwards and B.~O. Palsson, ``Systems properties of the haemophilus
-  influenzae rd metabolic genotype,'' {\em The Journal of biological
-  chemistry}, vol.~274, pp.~17410--17416, 6 1999.
-
 \bibitem{Gu2019}
 C.~Gu, G.~B. Kim, W.~J. Kim, H.~U. Kim, and S.~Y. Lee, ``Current status and
   applications of genome-scale metabolic models,'' {\em Genome Biology 2019
   20:1}, vol.~20, pp.~1--18, 6 2019.
+
+\bibitem{Edwards1999}
+J.~S. Edwards and B.~O. Palsson, ``Systems properties of the haemophilus
+  influenzae rd metabolic genotype,'' {\em The Journal of biological
+  chemistry}, vol.~274, pp.~17410--17416, 6 1999.
 
 \bibitem{Aimo2015}
 L.~Aimo, R.~Liechti, N.~Hyka-Nouspikel, A.~Niknejad, A.~Gleizes, L.~Götz,
@@ -63,15 +63,21 @@ A.~Passi, J.~D. Tibocha-Bonilla, M.~Kumar, D.~Tec-Campos, K.~Zengler, and
   C.~Zuniga, ``Genome-scale metabolic modeling enables in-depth understanding
   of big data,'' {\em Metabolites}, vol.~12, 1 2021.
 
-\bibitem{Gyamfi2018}
-D.~Gyamfi, E.~O. Awuah, and S.~Owusu, ``Classes, nomenclature, and functions of
-  lipids and lipid-related molecules and the dietary lipids,'' {\em The
-  Molecular Nutrition of Fats}, pp.~3--16, 1 2018.
-
 \bibitem{Fahy2011}
 E.~Fahy, D.~Cotter, M.~Sud, and S.~Subramaniam, ``Lipid classification,
   structures and tools,'' {\em Biochimica et biophysica acta}, vol.~1811,
   p.~637, 11 2011.
+
+\bibitem{Fahy2009}
+E.~Fahy, S.~Subramaniam, R.~C. Murphy, M.~Nishijima, C.~R. Raetz, T.~Shimizu,
+  F.~Spener, G.~V. Meer, M.~J. Wakelam, and E.~A. Dennis, ``Update of the lipid
+  maps comprehensive classification system for lipids,'' {\em Journal of Lipid
+  Research}, vol.~50, p.~S9, 4 2009.
+
+\bibitem{Gyamfi2018}
+D.~Gyamfi, E.~O. Awuah, and S.~Owusu, ``Classes, nomenclature, and functions of
+  lipids and lipid-related molecules and the dietary lipids,'' {\em The
+  Molecular Nutrition of Fats}, pp.~3--16, 1 2018.
 
 \bibitem{Schutzhold}
 V.~Schützhold, J.~Hahn, K.~Tummler, and E.~Klipp, ``Computational modeling of
@@ -83,5 +89,10 @@ H.~W. Aung, S.~A. Henry, and L.~P. Walker, ``Revising the representation of
   fatty acid, glycerolipid, and glycerophospholipid metabolism in the consensus
   model of yeast metabolism,'' {\em Industrial Biotechnology}, vol.~9, p.~215,
   8 2013.
+
+\bibitem{Sanchez2019}
+B.~J. Sánchez, F.~Li, E.~J. Kerkhoven, and J.~Nielsen, ``Slimer: Probing
+  flexibility of lipid metabolism in yeast with an improved constraint-based
+  modeling framework,'' {\em BMC Systems Biology}, vol.~13, pp.~1--9, 1 2019.
 
 \end{thebibliography}
