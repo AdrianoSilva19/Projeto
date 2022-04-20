@@ -1,6 +1,6 @@
-PWD c:\Users\ampsi\OneDrive\Ambiente de Trabalho\Projrto_bioinf\Projeto\escrita
+PWD c:\Users\ampsi\OneDrive\Ambiente de Trabalho\projeto\Projeto\escrita
 INPUT C:\Users\ampsi\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\ampsi\OneDrive\Ambiente de Trabalho\Projrto_bioinf\Projeto\escrita\projeto_as.tex
+INPUT c:\Users\ampsi\OneDrive\Ambiente de Trabalho\projeto\Projeto\escrita\projeto_as.tex
 OUTPUT projeto_as.log
 INPUT .\llncs.cls
 INPUT .\llncs.cls
@@ -155,6 +155,13 @@ INPUT .\imagens\lipido.png
 INPUT .\imagens\lipido.png
 INPUT .\imagens\lipido.png
 INPUT .\imagens\lipido.png
+INPUT .\imagens\generica.png
+INPUT .\imagens\generica.png
+INPUT imagens\generica.png
+INPUT .\imagens\generica.png
+INPUT .\imagens\generica.png
+INPUT .\imagens\generica.png
+INPUT .\imagens\generica.png
 INPUT .\imagens\ETL.png
 INPUT .\imagens\ETL.png
 INPUT imagens\ETL.png

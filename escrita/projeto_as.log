@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.14)  20 APR 2022 23:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.14)  21 APR 2022 00:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/ampsi/OneDrive/Ambiente de Trabalho/Projrto_bioinf/Projeto/escrita/projeto_as.tex"
-(c:/Users/ampsi/OneDrive/Ambiente de Trabalho/Projrto_bioinf/Projeto/escrita/projeto_as.tex
+**"c:/Users/ampsi/OneDrive/Ambiente de Trabalho/projeto/Projeto/escrita/projeto_as.tex"
+(c:/Users/ampsi/OneDrive/Ambiente de Trabalho/projeto/Projeto/escrita/projeto_as.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (llncs.cls
 Document Class: llncs 2018/03/10 v2.20 
@@ -168,7 +168,11 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count289
 \l__pdf_internal_box=\box97
-) (projeto_as.aux)
+) (projeto_as.aux
+
+LaTeX Warning: Label `fig1' multiply defined.
+
+)
 \openout1 = `projeto_as.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -225,25 +229,34 @@ File: imagens/lipido.png Graphic file (type png)
 <use imagens/lipido.png>
 Package pdftex.def Info: imagens/lipido.png  used on input line 83.
 (pdftex.def)             Requested size: 347.12354pt x 113.11115pt.
-[3 <./imagens/lipido.png>]
-<imagens/ETL.png, id=22, 869.49844pt x 374.14781pt>
+<imagens/generica.png, id=18, 1182.66844pt x 300.3722pt>
+File: imagens/generica.png Graphic file (type png)
+<use imagens/generica.png>
+Package pdftex.def Info: imagens/generica.png  used on input line 99.
+(pdftex.def)             Requested size: 347.12354pt x 88.15985pt.
+[3 <./imagens/lipido.png>] [4 <./imagens/generica.png>]
+<imagens/ETL.png, id=27, 869.49844pt x 374.14781pt>
 File: imagens/ETL.png Graphic file (type png)
 <use imagens/ETL.png>
-Package pdftex.def Info: imagens/ETL.png  used on input line 132.
+Package pdftex.def Info: imagens/ETL.png  used on input line 137.
 (pdftex.def)             Requested size: 347.12354pt x 149.371pt.
- (projeto_as.bbl [4] [5 <./imagens/ETL.png>]) [6] (projeto_as.aux) ) 
+ (projeto_as.bbl [5 <./imagens/ETL.png>]) [6] (projeto_as.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1793 strings out of 478582
- 28925 string characters out of 2844344
- 330514 words of memory out of 3000000
- 19998 multiletter control sequences out of 15000+600000
+ 1800 strings out of 478582
+ 29025 string characters out of 2844344
+ 332553 words of memory out of 3000000
+ 20004 multiletter control sequences out of 15000+600000
  472765 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,7n,62p,666b,267s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 55i,7n,62p,659b,265s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\ampsi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on projeto_as.pdf (6 pages, 267478 bytes).
+Output written on projeto_as.pdf (6 pages, 297872 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
+ 73 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
