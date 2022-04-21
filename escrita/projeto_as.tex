@@ -44,7 +44,7 @@ Over 6000 GSM models were reconstructed in total \cite{Gu2019} since the reconst
 Nonetheless, the pace of reconstruction of GSM models cannot keep up with the advancements of high-throughput technologies and thus \textit{omics} data. The lack of integration of new data into GSM models is a problem inherent to this growth discrepancy.
 
 Besides the usefulness of these models, their reconstruction is limited due to the lack of biochemical and incorporated structural data.
-More precisely, complex macromolecules are often represented in their generic version not giving any biochemical and structural information \cite{Gu2019}.
+More precisely, complex macromolecules are often represented in their generic version not givingthe whole biochemical and structural information \cite{Gu2019}.
 Particularly in the case of lipids, only a small number of reconstructed GSM models have structurally defined lipids with no or few relevant cross-references. 
 
 The integration of molecular information can be done by taking advantage of the  \emph{de facto} databases such as SWISS LIPIDS \cite{Aimo2015} and  LIPID MAPS \cite{Sud2007}.
@@ -69,7 +69,7 @@ Therefore, it is important to integrate reliable biochemical data into the recon
 \subsection{Lipid computational representation}
 Lipids are macromolecules grouped into different classes according with their structural composition. 
 They are composed by two biochemical different components, the head usually composed by polar groups and the tail composed by apolar carbon linked chains.  
-The differences in lipid structural polarity conferes amphipathic characteristic to this macromolecule \cite{Fahy2011}. 
+The differences in lipid structural polarity conferes amphipathic characteristic to this macromolecule \cite{Fahy2011,Capela2022}. 
 This means that in an hidrophilic environment the polar part of the molecule is atracted and the apolar one repelled.
 This allows the generation of micelles, which is important for their biological roles such as being the principal cell membrane components, energy storage, and signaling molecules.
 
@@ -102,8 +102,7 @@ This representation neglects the fact that side chains are important components 
 
 Accordingly, biosynthetic pathways are represented in generic terms, with generic lipids as reactants and products.
 Based on this, we cannot access the exact lipids used in an hypothetic biosynthetic network.
-Besides that, an abstract representation is linked to the loss of specificity of individual reactions. 
-The use of a generic representation will impose the utilization of many lipids in the reactions, and does not allow the transformation of a generic compound into a well defined one \cite{Aung2013}.
+Besides that, an abstract representation is linked to the loss of specificity of individual reactions. The use of a generic representation will impose the utilization of many lipids in the reactions, and does not allow the transformation of a generic compound into a well defined one \cite{Aung2013,Capela2022}.
 
 
 Interestingly, we can still see the presence of cross-references to databases with the structure of these macromolecules. However, the same structure represent a multitude of structurally defined lipids of the class under representation. In these models, the name of the lipids is defined as the name of the class under representation, which, in most cases, only includes the name of the backbone.
@@ -117,27 +116,26 @@ In those that include, the lipid name includes both the side chains and the back
     \caption{Defined representation highlighted.} \label{fig3}
 \end{figure}
 
-These approaches allow the generation of individual reactions with structurally defined lipids, in contrast with generic representations \cite{Aung2013}.
-GSM models with defined lipids are more reliable, allowing the improvement of the flexibility, accuracy, and level of detail of these models. On the other hand, the inclusion of structurally defined versions of lipids can significantly increase the number of reactions in the model, which can be a drawback for some users.
+These approaches allow the generation of individual reactions with structurally defined lipids, in contrast with generic representations.
+GSM models with defined lipids are more reliable, allowing the improvement of the flexibility, accuracy, and level of detail of these models. On the other hand, the inclusion of structurally defined versions of lipids can significantly increase the number of reactions in the model, which can be a drawback for some users \cite{Aung2013,Capela2022}.
 Besides that, we can witness a lack of cross-references to \textit{de facto} lipid databases, which is not ideal for lipid structural confirmation, integration and interpretability.
 
 \subsection{Lack in lipid annotation in GSM models}
  
 GSM models with lipidic generic representation have few annotations to metabolites, and contrary defined ones have almost no annotation to the structure, only to the metabolites.
-All things considered, the use of lipidic generic representation is not appropriate in models aiming lipid production optimization. 
-But defined representation is lacking in structural annotation as well.
-
+All things considered, the use of lipidic generic representation is not appropriate in models aiming at lipid production optimization. 
+But defined representation is lacking in structural annotation as well wich is not ideal.
 \begin{figure}
     \includegraphics[width=\textwidth]{imagens/comparação.png}
-    \caption{Comparation between the representations aborded above.}
+    \caption{Comparation between the two representations aborded above.}
 \end{figure}
 
-A possible aproche to fill this gap would be the integration of structural information in models. 
+A possible approach to fill this gap would be the integration of structural information in models. 
 It would be achieved by the integration of synonyms and abbreviations, extracted from \textit{de facto} databases, as a link to the structural information.
 
-ETL is a integration data tool, that allows the gathering, processing and integration of data, see Fig.\ref{fig4}. 
-This is extremely usefull in data cleaning and organization providing the bases to data analytics and machine learning aproaches. 
-Based on this, ETL pipelines could make more easier the integration of structural information in our database.
+ETL is an integration data tool, that allows the gathering, processing, and integration of data, see Fig.\ref{fig4}. 
+This is extremely useful in data cleaning and organization providing the bases for data analytics and machine learning approaches. 
+Based on this, ETL pipelines could make easier the integration of structural information in our database.
 
 \begin{figure}
     \includegraphics[width=\textwidth]{imagens/ETL.png}

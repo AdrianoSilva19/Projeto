@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.14)  21 APR 2022 21:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.14)  21 APR 2022 21:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -234,33 +234,30 @@ Package pdftex.def Info: imagens/generica.png  used on input line 99.
 <imagens/defenido.png, id=23, 1219.55624pt x 164.11313pt>
 File: imagens/defenido.png Graphic file (type png)
 <use imagens/defenido.png>
-Package pdftex.def Info: imagens/defenido.png  used on input line 116.
+Package pdftex.def Info: imagens/defenido.png  used on input line 115.
 (pdftex.def)             Requested size: 347.12354pt x 46.71011pt.
  [4 <./imagens/generica.png> <./imagens/defenido.png>]
-<imagens/comparação.png, id=29, 876.27374pt x 371.13657pt>
+<imagens/comparação.png, id=29, 1121.69063pt x 572.1375pt>
 File: imagens/comparação.png Graphic file (type png)
 <use imagens/comparação.png>
-Package pdftex.def Info: imagens/comparação.png  used on input line 131.
-(pdftex.def)             Requested size: 347.12354pt x 147.01923pt.
+Package pdftex.def Info: imagens/comparação.png  used on input line 129.
+(pdftex.def)             Requested size: 347.12354pt x 177.05524pt.
 <imagens/ETL.png, id=30, 869.49844pt x 374.14781pt>
 File: imagens/ETL.png Graphic file (type png)
 <use imagens/ETL.png>
-Package pdftex.def Info: imagens/ETL.png  used on input line 143.
+Package pdftex.def Info: imagens/ETL.png  used on input line 141.
 (pdftex.def)             Requested size: 347.12354pt x 149.371pt.
- (projeto_as.bbl
-Underfull \vbox (badness 2343) has occurred while \output is active []
-
- [5 <./imagens/comparação.png>] [6 <./imagens/ETL.png>]) [7] (projeto_as.aux) ) 
+ (projeto_as.bbl [5 <./imagens/comparação.png>] [6 <./imagens/ETL.png>]) [7] (projeto_as.aux) ) 
 Here is how much of TeX's memory you used:
- 1815 strings out of 478582
- 29382 string characters out of 2844344
- 330530 words of memory out of 3000000
- 20017 multiletter control sequences out of 15000+600000
+ 1816 strings out of 478582
+ 29394 string characters out of 2844344
+ 330534 words of memory out of 3000000
+ 20018 multiletter control sequences out of 15000+600000
  472765 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,62p,659b,267s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 55i,7n,62p,659b,267s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\ampsi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on projeto_as.pdf (7 pages, 342440 bytes).
+Output written on projeto_as.pdf (7 pages, 364745 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

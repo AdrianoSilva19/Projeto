@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex projeto_as"] 1650572315 "projeto_as.aux" "projeto_as.bbl" "projeto_as" 1650572317
+["bibtex projeto_as"] 1650574580 "projeto_as.aux" "projeto_as.bbl" "projeto_as" 1650574582
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291867944 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "projeto_as.aux" 1650572316 3499 cdb304dedf47d233356105039bc33569 "pdflatex"
-  "referencias.bib" 1650497258 37479 34e3f083a9fbf84337ddbfece92074ad ""
+  "projeto_as.aux" 1650574581 3561 e15835ded7be1f6dc939807370adb253 "pdflatex"
+  "referencias.bib" 1650574087 37682 8c5ebab18c0376c03ea101a183a987db ""
   (generated)
   "projeto_as.bbl"
   "projeto_as.blg"
-["pdflatex"] 1650572315 "c:/Users/ampsi/OneDrive/Ambiente de Trabalho/projeto/Projeto/escrita/projeto_as.tex" "projeto_as.pdf" "projeto_as" 1650572317
+["pdflatex"] 1650574580 "c:/Users/ampsi/OneDrive/Ambiente de Trabalho/projeto/Projeto/escrita/projeto_as.tex" "projeto_as.pdf" "projeto_as" 1650574582
   "C:/Users/ampsi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1647297123 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/ampsi/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0900.pk" 1647297133 10472 cef087521c16355fc24191b52c91f224 ""
   "C:/Users/ampsi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1647297128 10246961 2945a5d4e2648c75c2f4c9644d494c39 ""
@@ -41,15 +41,15 @@
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1644218660 29921 d0acc05a38bd4aa3af2017f0b7c137ce ""
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/tex/latex/oberdiek/aliascnt.sty" 1637064316 2652 813491e2bc95c1dafbb39cd7c54b380b ""
   "C:/Users/ampsi/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1636713860 32262 2bb622a0aa56c4a7a5cbdfe9d122c15a ""
-  "c:/Users/ampsi/OneDrive/Ambiente de Trabalho/projeto/Projeto/escrita/projeto_as.tex" 1650572312 12202 3bac20e4095503b22d62d3c6eb4aedb5 ""
+  "c:/Users/ampsi/OneDrive/Ambiente de Trabalho/projeto/Projeto/escrita/projeto_as.tex" 1650574575 12260 49e5be9b9e6c1b997b6e9d538c69d3b6 ""
   "imagens/ETL.png" 1650497258 108612 bfc58c8d389f478924c523e72bec5db9 ""
   "imagens/defenido.png" 1650498598 395176 04c9311322f57f54ec09b620fe33348d ""
   "imagens/generica.png" 1650499428 321454 6db738f11f4d25b4609b24a676f3bd19 ""
   "imagens/lipido.png" 1650497258 94560 3ffb39a67458cdf3f9b66257f135787b ""
   "llncs.cls" 1650497258 43467 b08ec23e994470d7d8fc268d245cf555 ""
-  "projeto_as.aux" 1650572316 3499 cdb304dedf47d233356105039bc33569 "pdflatex"
-  "projeto_as.bbl" 1650572315 4354 07a8aedd931bf2ca336188f775f153f9 "bibtex projeto_as"
-  "projeto_as.tex" 1650572312 12202 3bac20e4095503b22d62d3c6eb4aedb5 ""
+  "projeto_as.aux" 1650574581 3561 e15835ded7be1f6dc939807370adb253 "pdflatex"
+  "projeto_as.bbl" 1650574580 4507 d1b7a20d2ecf1e2dd90eb4a722668505 "bibtex projeto_as"
+  "projeto_as.tex" 1650574575 12260 49e5be9b9e6c1b997b6e9d538c69d3b6 ""
   (generated)
   "projeto_as.aux"
   "projeto_as.log"
