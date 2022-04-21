@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.14)  21 APR 2022 00:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.14)  21 APR 2022 21:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -168,11 +168,7 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count289
 \l__pdf_internal_box=\box97
-) (projeto_as.aux
-
-LaTeX Warning: Label `fig1' multiply defined.
-
-)
+) (projeto_as.aux)
 \openout1 = `projeto_as.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -229,34 +225,44 @@ File: imagens/lipido.png Graphic file (type png)
 <use imagens/lipido.png>
 Package pdftex.def Info: imagens/lipido.png  used on input line 83.
 (pdftex.def)             Requested size: 347.12354pt x 113.11115pt.
-<imagens/generica.png, id=18, 1182.66844pt x 300.3722pt>
+<imagens/generica.png, id=18, 1182.66844pt x 213.79875pt>
 File: imagens/generica.png Graphic file (type png)
 <use imagens/generica.png>
 Package pdftex.def Info: imagens/generica.png  used on input line 99.
-(pdftex.def)             Requested size: 347.12354pt x 88.15985pt.
-[3 <./imagens/lipido.png>] [4 <./imagens/generica.png>]
-<imagens/ETL.png, id=27, 869.49844pt x 374.14781pt>
+(pdftex.def)             Requested size: 347.12354pt x 62.75037pt.
+[3 <./imagens/lipido.png>]
+<imagens/defenido.png, id=23, 1219.55624pt x 164.11313pt>
+File: imagens/defenido.png Graphic file (type png)
+<use imagens/defenido.png>
+Package pdftex.def Info: imagens/defenido.png  used on input line 116.
+(pdftex.def)             Requested size: 347.12354pt x 46.71011pt.
+ [4 <./imagens/generica.png> <./imagens/defenido.png>]
+<imagens/comparação.png, id=29, 876.27374pt x 371.13657pt>
+File: imagens/comparação.png Graphic file (type png)
+<use imagens/comparação.png>
+Package pdftex.def Info: imagens/comparação.png  used on input line 131.
+(pdftex.def)             Requested size: 347.12354pt x 147.01923pt.
+<imagens/ETL.png, id=30, 869.49844pt x 374.14781pt>
 File: imagens/ETL.png Graphic file (type png)
 <use imagens/ETL.png>
-Package pdftex.def Info: imagens/ETL.png  used on input line 137.
+Package pdftex.def Info: imagens/ETL.png  used on input line 143.
 (pdftex.def)             Requested size: 347.12354pt x 149.371pt.
- (projeto_as.bbl [5 <./imagens/ETL.png>]) [6] (projeto_as.aux)
+ (projeto_as.bbl
+Underfull \vbox (badness 2343) has occurred while \output is active []
 
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+ [5 <./imagens/comparação.png>] [6 <./imagens/ETL.png>]) [7] (projeto_as.aux) ) 
 Here is how much of TeX's memory you used:
- 1800 strings out of 478582
- 29025 string characters out of 2844344
- 332553 words of memory out of 3000000
- 20004 multiletter control sequences out of 15000+600000
+ 1815 strings out of 478582
+ 29382 string characters out of 2844344
+ 330530 words of memory out of 3000000
+ 20017 multiletter control sequences out of 15000+600000
  472765 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,7n,62p,659b,265s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 55i,6n,62p,659b,267s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\ampsi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on projeto_as.pdf (6 pages, 297872 bytes).
+Output written on projeto_as.pdf (7 pages, 342440 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
+ 82 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

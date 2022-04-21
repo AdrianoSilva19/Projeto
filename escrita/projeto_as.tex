@@ -92,12 +92,12 @@ Despite the existence of lipid databases with defined structures, GSM models sti
 
 
 \subsection{Generic Representation in GSM models}
-The metabolites and reactions present in a GSM model highly depend on their source. As most databases (e.g., KEGG and MetaCyc) do not represent lipids as structurally defined, the absence of completely defined structures is propagated to those models. (figura com a representação generica de um modelo?). 
+The metabolites and reactions present in a GSM model highly depend on their source. As most databases (e.g., KEGG and MetaCyc) do not represent lipids as structurally defined, the absence of completely defined structures is propagated to those models see Fig.\ref{fig2}. 
 This representation neglects the fact that side chains are important components in the lipid metabolic network \cite{Schutzhold,Aung2013,Sanchez2019}.
 
 \begin{figure}
     \includegraphics[width=\textwidth]{imagens/generica.png}
-    \caption{Generic representation highlighted, extracted from tgondii model} \label{fig1}
+    \caption{Generic representation highlighted.} \label{fig2}
 \end{figure}
 
 Accordingly, biosynthetic pathways are represented in generic terms, with generic lipids as reactants and products.
@@ -110,38 +110,46 @@ Interestingly, we can still see the presence of cross-references to databases wi
 
 \subsection{Structurally defined representation in GSM models}
 Contrary to the generic representation, GSM models do not usually include structurally defined lipids \cite{Schutzhold}.
-In those that include, the lipid name includes both the side chains and the backbone. The side chains' name is defined by the number of carbons followed by the number and the location of double bonds as well as their stereochemistry (figura a demonstrar esta representação??).
+In those that include, the lipid name includes both the side chains and the backbone. The side chains' name is defined by the number of carbons followed by the number and the location of double bonds as well as their stereochemistry fig3.
+
+\begin{figure}
+    \includegraphics[width=\textwidth]{imagens/defenido.png}
+    \caption{Defined representation highlighted.} \label{fig3}
+\end{figure}
 
 These approaches allow the generation of individual reactions with structurally defined lipids, in contrast with generic representations \cite{Aung2013}.
 GSM models with defined lipids are more reliable, allowing the improvement of the flexibility, accuracy, and level of detail of these models. On the other hand, the inclusion of structurally defined versions of lipids can significantly increase the number of reactions in the model, which can be a drawback for some users.
 Besides that, we can witness a lack of cross-references to \textit{de facto} lipid databases, which is not ideal for lipid structural confirmation, integration and interpretability.
 
 \subsection{Lack in lipid annotation in GSM models}
-primeiro paragrafo
+ 
+GSM models with lipidic generic representation have few annotations to metabolites, and contrary defined ones have almost no annotation to the structure, only to the metabolites.
+All things considered, the use of lipidic generic representation is not appropriate in models aiming lipid production optimization. 
+But defined representation is lacking in structural annotation as well.
 
-- Merge the two previous logics (sucintamente)
-- falar das anotações, uma tem e outra tem poucas.
+\begin{figure}
+    \includegraphics[width=\textwidth]{imagens/comparação.png}
+    \caption{Comparation between the representations aborded above.}
+\end{figure}
 
-Segundo
+A possible aproche to fill this gap would be the integration of structural information in models. 
+It would be achieved by the integration of synonyms and abbreviations, extracted from \textit{de facto} databases, as a link to the structural information.
 
-- Possível Resolução
-    - integração dos sinonimos e abreviaturas das bases de dados xyz com ETL
-    uma frase para cada e um paragrafo para etl ( esquema pode ajudar??)
+ETL is a integration data tool, that allows the gathering, processing and integration of data, see Fig.\ref{fig4}. 
+This is extremely usefull in data cleaning and organization providing the bases to data analytics and machine learning aproaches. 
+Based on this, ETL pipelines could make more easier the integration of structural information in our database.
 
-Terceiro?   
+\begin{figure}
+    \includegraphics[width=\textwidth]{imagens/ETL.png}
+    \caption{Escheme of the process done with ETL pipeline.
+    First the ETL tool extracte data from multiple databases
+    then processes all that data
+    and finally integrates the data in our database.} \label{fig4}    
+\end{figure}
 
 Anotação de modelos:
     - match direto
     - decomposição do nome em dois (backbone e side chain) - queries à base de dados
-\begin{figure}
-    \includegraphics[width=\textwidth]{imagens/ETL.png}
-    \caption{Escheme of the process done with ETL pipeline.
-    First gather data from conventional databases
-    then processes that data
-    and finally integrates the data in our database.} \label{fig2}    
-\end{figure}
-
-
 
 
 
