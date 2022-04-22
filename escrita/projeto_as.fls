@@ -1,6 +1,6 @@
-PWD c:\Users\ampsi\OneDrive\Ambiente de Trabalho\projeto\Projeto\escrita
+PWD c:\Users\ampsi\OneDrive\Ambiente de Trabalho\projeto_bioinf\Projeto\escrita
 INPUT C:\Users\ampsi\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\ampsi\OneDrive\Ambiente de Trabalho\projeto\Projeto\escrita\projeto_as.tex
+INPUT c:\Users\ampsi\OneDrive\Ambiente de Trabalho\projeto_bioinf\Projeto\escrita\projeto_as.tex
 OUTPUT projeto_as.log
 INPUT .\llncs.cls
 INPUT .\llncs.cls
