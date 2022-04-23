@@ -25,6 +25,15 @@ J.~S. Edwards and B.~O. Palsson, ``Systems properties of the haemophilus
   influenzae rd metabolic genotype,'' {\em The Journal of biological
   chemistry}, vol.~274, pp.~17410--17416, 6 1999.
 
+\bibitem{Kim2012}
+T.~Y. Kim, S.~B. Sohn, Y.~B. Kim, W.~J. Kim, and S.~Y. Lee, ``Recent advances
+  in reconstruction and applications of genome-scale metabolic models,'' {\em
+  Current Opinion in Biotechnology}, vol.~23, pp.~617--623, 8 2012.
+
+\bibitem{Capela}
+``Universidade do minho: Revising lipid chemical structures in genome-wide
+  metabolic models with boimmg.''
+
 \bibitem{Aimo2015}
 L.~Aimo, R.~Liechti, N.~Hyka-Nouspikel, A.~Niknejad, A.~Gleizes, L.~Götz,
   D.~Kuznetsov, F.~P. David, F.~G. V.~D. Goot, H.~Riezman, L.~Bougueleret,
@@ -68,9 +77,10 @@ E.~Fahy, D.~Cotter, M.~Sud, and S.~Subramaniam, ``Lipid classification,
   structures and tools,'' {\em Biochimica et biophysica acta}, vol.~1811,
   p.~637, 11 2011.
 
-\bibitem{Capela2022}
-J.~M. Capela and A.~Ribeiro, ``Biochemical complex data generation and
-  integration in genome-scale metabolic models,'' 2022.
+\bibitem{Cullis1986}
+P.~R. Cullis, M.~J. Hope, and C.~P. Tilcock, ``Lipid polymorphism and the roles
+  of lipids in membranes,'' {\em Chemistry and Physics of Lipids}, vol.~40,
+  pp.~127--144, 6 1986.
 
 \bibitem{Fahy2009}
 E.~Fahy, S.~Subramaniam, R.~C. Murphy, M.~Nishijima, C.~R. Raetz, T.~Shimizu,
@@ -98,5 +108,17 @@ H.~W. Aung, S.~A. Henry, and L.~P. Walker, ``Revising the representation of
 B.~J. Sánchez, F.~Li, E.~J. Kerkhoven, and J.~Nielsen, ``Slimer: Probing
   flexibility of lipid metabolism in yeast with an improved constraint-based
   modeling framework,'' {\em BMC Systems Biology}, vol.~13, pp.~1--9, 1 2019.
+
+\bibitem{Tymoshenko2015}
+S.~Tymoshenko, R.~D. Oppenheim, R.~Agren, J.~Nielsen, D.~Soldati-Favre, and
+  V.~Hatzimanikatis, ``Metabolic needs and capabilities of toxoplasma gondii
+  through combined computational and experimental analysis,'' {\em PLoS
+  computational biology}, vol.~11, 5 2015.
+
+\bibitem{Levering2016}
+J.~Levering, J.~Broddrick, C.~L. Dupont, G.~Peers, K.~Beeri, J.~Mayers, A.~A.
+  Gallina, A.~E. Allen, B.~O. Palsson, and K.~Zengler, ``Genome-scale model
+  reveals metabolic basis of biomass partitioning in a model diatom,'' {\em
+  PloS one}, vol.~11, 5 2016.
 
 \end{thebibliography}
