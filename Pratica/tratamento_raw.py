@@ -6,12 +6,12 @@ lm_raw=PandasTools.LoadSDF(r"C:\Users\ampsi\OneDrive\Ambiente de Trabalho\estrut
 
 def tratamento_raw_lm(dataset):
     dataset.info()    
-    df=dataset[['LM_ID','ABBREVIATION','SYNONYMS']]
+    df=pd.DataFrame(dataset[['LM_ID','ABBREVIATION','SYNONYMS']])
     df.to_csv('C:\\Users\\ampsi\\OneDrive\\Ambiente de Trabalho\\projeto\\Projeto\\Pratica\\lm_treated.csv', index=None)
 
 def tratamento_raw_sl(dataset):
     dataset.info()
-    df=dataset[['Lipid ID','Abbreviation*','Synonyms*']]
+    df=pd.DataFrame(dataset[['Lipid ID','Abbreviation*','Synonyms*']])
     df.to_csv('C:\\Users\\ampsi\\OneDrive\\Ambiente de Trabalho\\projeto\\Projeto\\Pratica\\sl_treated.csv', index=None)
 
 
