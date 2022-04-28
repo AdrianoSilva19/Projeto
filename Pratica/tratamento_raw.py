@@ -4,11 +4,6 @@ import pandas as pd
 sl_raw=pd.read_table(r"C:\Users\ampsi\OneDrive\Ambiente de Trabalho\estruturas\swiss_lipids.txt",low_memory=False)
 lm_raw=PandasTools.LoadSDF(r"C:\Users\ampsi\OneDrive\Ambiente de Trabalho\estruturas\lipid_maps.sdf")
 
-#sl_lipids.info()
-#lm_lipids.info()
-#df=pd.DataFrame(lm_lipids[['LM_ID','ABBREVIATION','SYNONYMS']])
-#df.to_csv(r'C:\Users\ampsi\OneDrive\Ambiente de Trabalho\projeto\Projeto\Pratica\lipid_maps.csv', index=None)
-
 def tratamento_raw_lm(dataset):
     dataset.info()    
     df=dataset[['LM_ID','ABBREVIATION','SYNONYMS']]
@@ -21,6 +16,8 @@ def tratamento_raw_sl(dataset):
 
 
 def teste():
+    sl_raw=pd.read_table(r"C:\Users\ampsi\OneDrive\Ambiente de Trabalho\estruturas\swiss_lipids.txt",low_memory=False)
+    lm_raw=PandasTools.LoadSDF(r"C:\Users\ampsi\OneDrive\Ambiente de Trabalho\estruturas\lipid_maps.sdf")
     tratamento_raw_lm(lm_raw)
     tratamento_raw_sl(sl_raw)
 
