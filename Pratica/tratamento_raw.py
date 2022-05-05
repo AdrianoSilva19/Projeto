@@ -1,25 +1,61 @@
 from rdkit.Chem import PandasTools
 import pandas as pd
+import gzip
+import requests, zipfile, io
 
-sl_raw=pd.read_table(r"C:\Users\ampsi\OneDrive\Ambiente de Trabalho\estruturas\swiss_lipids.txt",low_memory=False)
-lm_raw=PandasTools.LoadSDF(r"C:\Users\ampsi\OneDrive\Ambiente de Trabalho\estruturas\lipid_maps.sdf")
+# LIPID MAPS
 
-def tratamento_raw_lm(dataset):
-    dataset.info()    
-    df=pd.DataFrame(dataset[['LM_ID','ABBREVIATION','SYNONYMS']])
-    df.to_csv('C:\\Users\\ampsi\\OneDrive\\Ambiente de Trabalho\\projeto\\Projeto\\Pratica\\lm_treated.csv', index=None)
+def scrape_data():
+    '''
+    This class downloads the ZIP file and extracts the CSV files of lipid maps to a temporary folder.
+    :return:
+    '''
+    r = requests.get("https://www.lipidmaps.org/files/?file=LMSD&ext=sdf.zip")
+    z = zipfile.ZipFile(io.BytesIO(r.content))
+    
+    return z.open('structures.sdf')  
 
-def tratamento_raw_sl(dataset):
-    dataset.info()
-    df=pd.DataFrame(dataset[['Lipid ID','Abbreviation*','Synonyms*']])
-    df.to_csv('C:\\Users\\ampsi\\OneDrive\\Ambiente de Trabalho\\projeto\\Projeto\\Pratica\\sl_treated.csv', index=None)
+
+def _extract() -> pd.DataFrame:
+    """
+    #Method to create a pandas dataframe with the scraped data.
+    #:return:
+    """
+    raw=PandasTools.LoadSDF(scrape_data())
+    df=pd.DataFrame(raw)
+    df.to_csv('C:\\Users\\ampsi\\OneDrive\\Ambiente de Trabalho\\projeto\\Projeto\\Pratica\\lm_whole_db.csv',index=None)
+    return df
+    
 
 
-def teste():
-    sl_raw=pd.read_table(r"C:\Users\ampsi\OneDrive\Ambiente de Trabalho\estruturas\swiss_lipids.txt",low_memory=False)
-    lm_raw=PandasTools.LoadSDF(r"C:\Users\ampsi\OneDrive\Ambiente de Trabalho\estruturas\lipid_maps.sdf")
-    tratamento_raw_lm(lm_raw)
-    tratamento_raw_sl(sl_raw)
+_extract()
 
-teste()
+#-----------------------------------------------------------------------------------#
+
+# SWISS LIPIDS
+
+
+def scrape_data_sl():
+    """
+    This class downloads the ZIP file and extracts the CSV files of lipid maps to a temporary folder.
+    :return:
+    """
+    r = requests.get("https://www.swisslipids.org/api/file.php?cas=download_files&file=lipids.tsv")
+    z = gzip.open(io.BytesIO(r.content),'rb')
+    return z
+    
+     
+
+
+def _extract_sl() -> pd.DataFrame:
+    """
+    Method to create a pandas dataframe with the scraped data.
+    :return:
+    """
+    raw= pd.read_table(scrape_data_sl(),engine='python',encoding='ISO-8859-1')
+    df=pd.DataFrame(raw)
+    df.to_csv('C:\\Users\\ampsi\\OneDrive\\Ambiente de Trabalho\\projeto\\Projeto\\Pratica\\sl_whole_db.csv',index=None)
+    return df
+
+_extract_sl()
 
