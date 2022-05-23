@@ -1,0 +1,66 @@
+,LM_ID,ABBREVIATION,SYNONYMS
+0,LMFA00000001,FA 40:7,Acetylenic acids
+1,LMFA00000001,O3,
+2,LMFA00000002,nan,nan
+3,LMFA00000003,nan,nan
+4,LMFA00000004,nan,nan
+5,LMFA00000005,nan,nan
+6,LMFA00000006,nan,nan
+7,LMFA00000007,nan,Decanohydroxamic acid
+8,LMFA00000007,, caprinohydroxamic acid
+9,LMFA00000007,, n-Decanohydroxamic acid
+10,LMFA00000008,nan,"(9S,10S)-10-hydroxy-9-(phosphonooxy)stearic acid"
+11,LMFA00000009,nan,nan
+12,LMFA00000014,nan,nan
+13,LMFA00000015,nan,DDM
+14,LMFA00000016,nan,"Docosane-1,14-diyl bis(hydrogen sulfate)"
+15,LMFA00000017,nan,nan
+16,LMFA00000018,nan,nan
+17,LMFA00000019,nan,nan
+18,LMFA00000020,nan,nan
+19,LMFA00000021,nan,nan
+20,LMFA00000022,nan,nan
+21,LMFA00000023,nan,"14-chlorotetracosane-1,15-diyl bis(hydrogen sulfate)"
+22,LMFA00000024,nan,nan
+23,LMFA00000025,nan,nan
+24,LMFA00000026,nan,"(Z)-11,12,13,15,16-pentachloro-14-hydroxytetracos-1-enyl hydrogen sulfate"
+25,LMFA00000031,nan,nan
+26,LMFA00000034,nan,nan
+27,LMFA00000035,nan,nan
+28,LMFA00000039,nan,nan
+29,LMFA00000043,nan,nan
+30,LMFA00000051,nan,nan
+31,LMFA00000027,nan,nan
+32,LMFA00000028,nan,nan
+33,LMFA00000029,nan,nan
+34,LMFA00000030,nan,nan
+35,LMFA00000032,nan,nan
+36,LMFA00000033,nan,nan
+37,LMFA00000036,nan,nan
+38,LMFA00000037,nan,nan
+39,LMFA00000038,nan,nan
+40,LMFA00000040,nan,thio-DMAP
+41,LMFA00000041,nan,thio-DMAB
+42,LMFA00000042,nan,DMAB
+43,LMFA00000044,nan,nan
+44,LMFA00000045,nan,nan
+45,LMFA00000046,nan,nan
+46,LMFA00000047,nan,nan
+47,LMFA00000048,nan,nan
+48,LMFA00000049,nan,nan
+49,LMFA00000050,nan,nan
+50,LMFA01010001,FA 16:0,Cetylic acid
+51,LMFA01010001,, Palmitate
+52,LMFA01010001,, n-Hexadecanoic acid
+53,LMFA01010001,, C16:0
+54,LMFA01010001,, Aethalic acid 
+55,LMFA01010002,FA 2:0,Vinegar acid
+56,LMFA01010002,, 10.Methanecarboxylic acid
+57,LMFA01010002,, acetate
+58,LMFA01010002,, C2:0
+59,LMFA01010003,FA 3:0,Pseudoacetic acid
+60,LMFA01010003,, propionate
+61,LMFA01010003,,Methylacetic acid
+62,LMFA01010003,, Ethanecarboxylic acid
+63,LMFA01010003,, Ethylformic acid
+64,LMFA01010003,, C3:0
