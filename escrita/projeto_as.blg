@@ -5,47 +5,44 @@ Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
 Reallocating 'name_of_file' (item size: 1) to 16 items.
 Database file #1: referencias.bib
-Warning--entry type for "Capela" isn't style-file defined
---line 657 of file referencias.bib
-You've used 23 entries,
+You've used 16 entries,
             1876 wiz_defined-function locations,
-            656 strings with 8759 characters,
-and the built_in function-call counts, 6851 in all, are:
-= -- 619
-> -- 384
+            609 strings with 6978 characters,
+and the built_in function-call counts, 5046 in all, are:
+= -- 474
+> -- 257
 < -- 0
-+ -- 136
-- -- 113
-* -- 569
-:= -- 1025
-add.period$ -- 22
-call.type$ -- 23
-change.case$ -- 23
++ -- 91
+- -- 75
+* -- 406
+:= -- 740
+add.period$ -- 16
+call.type$ -- 16
+change.case$ -- 16
 chr.to.int$ -- 0
-cite$ -- 23
-duplicate$ -- 319
-empty$ -- 540
-format.name$ -- 113
-if$ -- 1639
+cite$ -- 16
+duplicate$ -- 243
+empty$ -- 396
+format.name$ -- 75
+if$ -- 1221
 int.to.chr$ -- 0
-int.to.str$ -- 23
-missing$ -- 22
-newline$ -- 72
-num.names$ -- 22
-pop$ -- 39
+int.to.str$ -- 16
+missing$ -- 16
+newline$ -- 51
+num.names$ -- 16
+pop$ -- 24
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 273
+skip$ -- 214
 stack$ -- 0
-substring$ -- 389
-swap$ -- 160
+substring$ -- 317
+swap$ -- 130
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 54
-width$ -- 25
-write$ -- 223
-(There was 1 warning)
+while$ -- 41
+width$ -- 18
+write$ -- 160

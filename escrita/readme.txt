@@ -1,23 +1,21 @@
-Dear user,
+Dear LLNCS user,
 
-The files on this directory will help you to reach the paper of the project
+The files in this directory belong to the LaTeX2e package for
+Lecture Notes in Computer Science (LNCS) of Springer-Verlag.
 
 It consists of the following files:
 
-  readme.txt         This file
+  readme.txt         this file
 
-  history.txt        The version history of the package
+  history.txt        the version history of the package
 
-  llncs.cls          The LaTeX2e document class
+  llncs.cls          the LaTeX2e document class
 
-  projeto_as.tex     The actual paper of the project in its latex origin
+  samplepaper.tex    a sample paper
+  fig1.eps           a figure used in the sample paper
 
-  llncsdoc.pdf       The documentation of the class (PDF version)
+  llncsdoc.pdf       the documentation of the class (PDF version)
 
-  splncs04.bst       Current LNCS BibTeX style with alphabetic sorting
+  splncs04.bst       current LNCS BibTeX style with alphabetic sorting
   
-  projeto_as.pdf     The final pdf of the paper
-
-And the following directorys:
-
-  imagens            Contains the jpg used in the paper
+  samplepaper.pdf    the final pdf os the samplepaper

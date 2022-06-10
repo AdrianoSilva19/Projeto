@@ -1,4 +1,9 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.20 of 2017/10/04
+%
 \documentclass{llncs}
+%
 \usepackage{graphicx}
 
 \begin{document}
@@ -128,24 +133,6 @@ However, defined representations usually lack in structural annotations, hinderi
 
 A possible approach to fill this gap would be the integration of structural information in models. 
 Such a solution would be achieved by the integration of synonyms and abbreviations, extracted from \textit{de facto} databases, as a link to the structural information. Those synonyms and abbreviations can be used to identify structurally defined lipids in the GSM models, as most of them provide a name or synonym, though not providing any cross-reference to other databases. 
-
-\section{Methodology}
-
-ETL is an integration data tool, that allows the gathering, processing, and integration of data, see Fig.\ref{fig4}. 
-This is extremely useful in data cleaning and organization providing the bases for data analytics and machine learning approaches. 
-Based on this, ETL pipelines could make easier the integration of structural information in our database.
-
-\begin{figure}
-    \includegraphics[width=\textwidth]{imagens/ETL.png}
-    \caption{Escheme of the process done with ETL pipeline.
-    First the ETL tool extracte data from multiple databases
-    then processes all that data
-    and finally integrates the data in our database.} \label{fig4}    
-\end{figure}
-
-Anotação de modelos:
-    - match direto
-    - decomposição do nome em dois (backbone e side chain) - queries à base de dados
 
 
 

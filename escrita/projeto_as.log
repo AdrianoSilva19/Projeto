@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.22)  23 APR 2022 20:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.14)  18 APR 2022 19:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/ampsi/OneDrive/Ambiente de Trabalho/projeto_bioinf/Projeto/escrita/projeto_as.tex"
-(c:/Users/ampsi/OneDrive/Ambiente de Trabalho/projeto_bioinf/Projeto/escrita/projeto_as.tex
+**"c:/Users/ampsi/OneDrive/Ambiente de Trabalho/Projrto_bioinf/Projeto/escrita/projeto_as.tex"
+(c:/Users/ampsi/OneDrive/Ambiente de Trabalho/Projrto_bioinf/Projeto/escrita/projeto_as.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-04-10> (llncs.cls
+L3 programming layer <2022-02-24> (llncs.cls
 Document Class: llncs 2018/03/10 v2.20 
  LaTeX document class for Lecture Notes in Computer Science
 (C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -165,26 +165,26 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \Gin@req@height=\dimen161
 \Gin@req@width=\dimen162
 ) (C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count289
 \l__pdf_internal_box=\box97
 ) (projeto_as.aux)
 \openout1 = `projeto_as.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
  (C:\Users\ampsi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count290
@@ -205,56 +205,36 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 16.
+(Font)              <7> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 16.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 16.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 16.
+(Font)              <5> on input line 20.
  [1
 
 {C:/Users/ampsi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-<imagens/lipido.png, id=18, 1141.26375pt x 371.88937pt>
+<imagens/lipido.png, id=16, 1141.26375pt x 371.88937pt>
 File: imagens/lipido.png Graphic file (type png)
 <use imagens/lipido.png>
-Package pdftex.def Info: imagens/lipido.png  used on input line 79.
+Package pdftex.def Info: imagens/lipido.png  used on input line 85.
 (pdftex.def)             Requested size: 347.12354pt x 113.11115pt.
  [3 <./imagens/lipido.png>]
-<imagens/generica.png, id=24, 1182.66844pt x 213.79875pt>
-File: imagens/generica.png Graphic file (type png)
-<use imagens/generica.png>
-Package pdftex.def Info: imagens/generica.png  used on input line 95.
-(pdftex.def)             Requested size: 347.12354pt x 62.75037pt.
-<imagens/defenido.png, id=25, 1219.55624pt x 164.11313pt>
-File: imagens/defenido.png Graphic file (type png)
-<use imagens/defenido.png>
-Package pdftex.def Info: imagens/defenido.png  used on input line 110.
-(pdftex.def)             Requested size: 347.12354pt x 46.71011pt.
- [4 <./imagens/generica.png> <./imagens/defenido.png>]
-<imagens/comparação.png, id=32, 1248.16313pt x 526.96875pt>
-File: imagens/comparação.png Graphic file (type png)
-<use imagens/comparação.png>
-Package pdftex.def Info: imagens/comparação.png  used on input line 125.
-(pdftex.def)             Requested size: 347.12354pt x 146.55316pt.
-<imagens/ETL.png, id=33, 869.49844pt x 374.14781pt>
+<imagens/ETL.png, id=22, 869.49844pt x 374.14781pt>
 File: imagens/ETL.png Graphic file (type png)
 <use imagens/ETL.png>
-Package pdftex.def Info: imagens/ETL.png  used on input line 139.
+Package pdftex.def Info: imagens/ETL.png  used on input line 134.
 (pdftex.def)             Requested size: 347.12354pt x 149.371pt.
- (projeto_as.bbl [5 <./imagens/comparação.png>] [6 <./imagens/ETL.png>]) [7] (projeto_as.aux) ) 
+ (projeto_as.bbl [4] [5 <./imagens/ETL.png>]) [6] (projeto_as.aux) ) 
 Here is how much of TeX's memory you used:
- 1856 strings out of 478552
- 30369 string characters out of 2841938
- 334161 words of memory out of 3000000
- 20083 multiletter control sequences out of 15000+600000
- 474289 words of font info for 44 fonts, out of 8000000 for 9000
+ 1790 strings out of 478582
+ 28894 string characters out of 2844344
+ 331506 words of memory out of 3000000
+ 19995 multiletter control sequences out of 15000+600000
+ 472765 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,62p,661b,267s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\ampsi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on projeto_as.pdf (7 pages, 431079 bytes).
+ 55i,7n,62p,414b,267s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\ampsi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ampsi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on projeto_as.pdf (6 pages, 265916 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
