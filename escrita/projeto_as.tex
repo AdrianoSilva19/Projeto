@@ -134,6 +134,76 @@ However, defined representations usually lack in structural annotations, hinderi
 A possible approach to fill this gap would be the integration of structural information in models. 
 Such a solution would be achieved by the integration of synonyms and abbreviations, extracted from \textit{de facto} databases, as a link to the structural information. Those synonyms and abbreviations can be used to identify structurally defined lipids in the GSM models, as most of them provide a name or synonym, though not providing any cross-reference to other databases. 
 
+\subsection{Computational tools}
+\subsubsection{Neo4j}
+The database used for this project is formulated in graphs using the Neo4j program. A graph is a data structure composed of nodes and links. 
+Such an arrangement can emphasize the relationships between entities giving an edge over relational databases \cite{Miller2013}. 
+This is often useful for biological systems such as lipids where there are a plethora of relationships.
+
+Neo4j provides a library that allows you to connect and work on the database through python. 
+For our purposes, it will be used to facilitate the upload of data.
+
+\section{Methodology}
+
+The first step in this project was to access Lipid Maps and Swiss Lipids online databases and extract the corresponding dataset.
+Afterward and to achieve the proposed objective it was necessary to transform the raw data into a  usable and trusted resource, and lastly upload it to our database.
+ 
+To facilitate the process of accessing, treating, and loading lipidic data either from Lipid Maps or Swiss Lipids an ETL pipeline was built.
+ETL stands for Extract, Process, and Load, in a nutshell, it is an integration data tool that allows the gathering, processing, and integration of data, see Fig.\ref{fig4}. 
+This is extremely useful in the cleaning and the organization of the raw data into fresh reliable one, providing the bases for data analytics and machine learning approaches. 
+
+\begin{figure}
+    \includegraphics[width=\textwidth]{imagens/ETL.png}
+    \caption{Escheme of the process done with ETL pipeline.
+    First the ETL tool extracte data from multiple databases
+    then processes all that data
+    and finally integrates the data in our database.} \label{fig4}    
+\end{figure}
+
+\subsection{ETL Pipeline Execution}
+\subsubsection{Extract Phase}
+
+Firstly the online database from the \textit{de facto} databases was accessed with the use of the package \textit{Requests} that accessed and downloaded a zip file with the data from Swiss Lipids in a CSV format and Lipid Maps in an SDF format. Then,
+the file is used to create a \textit{pandas DataFrame}. 
+
+The process was done for Swiss Lipids and Lipid Maps separately, using two scripts to create a data frame for each. 
+In the data frames, we observe a large amount of disposable information in this context that can be resumed to a desirable data structure for our purpose.
+
+\subsubsection{Transform Phase}
+
+The original data frame contains numerous columns, each representing a characteristic/information about the lipids represented in rows but, for our objective, only three are necessary.
+They are the columns for synonyms, abbreviations, and the column with the ID needed to match with the lipids in the database. 
+Another step in the treatment is necessary to treat the cases where a lipid has more than one synonym or abbreviation.
+
+The class developed to this phase creates a new data frame with only two columns, one for lipid id and another for synonyms and abbreviations.
+Then, by successive iterations over the rows of the original dataset, the lipid ID is added into the first column and his synonym and abbreviations into the second. 
+In cases where one or more synonyms and abbreviations are present, it is created a new line with the same id for each different synonym and abbreviation.
+Since the data frames are relatively large, multiprocessing was used to help reduce the final time by nearly 10 times for this phase.
+
+\subsubsection{Load Phase}
+Having obtained the treated data frame, all that remains is to load the information into the database. For this purpose, it is necessary to connect to the local database and formulate queries that create the nodes corresponding 
+to synonyms and abbreviations as well as the relations between these and the database lipids.
+
+For instance, one synonym node could be linked to many lipids, especially synonyms of the backbone, 
+but one lipid is restringed by its composition for the number of connections with synonyms. For instance, if the node does not exist occurs the formulating of its relationship to the corresponding lipid id.
+As in the transformation phase, multiprocessing was here used to speed up loading into the database.
+
+\subsection{Model testing}
+
+The final step proposed was the testing in a model case with structurally defined lipids and a lack of cross-references to databases, for this the choice fell on the \textit{iLB1027-lipid} model \cite{Levering2016}.
+The model in study contains many metabolites including lipids, so it was necessary to select them. 
+
+Regular expressions were used to search for characteristic patterns of lipids so that they could be separated from the remaining metabolites.
+Next, the same process was used to split the lipid names into backbone and side chains, these components were used to get the corresponding database ids. 
+As expected not all synonyms are represented in the database, so it is necessary to restrict the passage of those that get the id for the backbone and at least one side chain.
+
+In the last step, all lipid compounds containing a specific backbone side-chain combination are searched in the database and the occurrences in the model for each backbone (lipid class) are counted.
+
+
+\section{Results and discussion}
+
+\section{Conclusion}
+
 
 
 \bibliographystyle{ieeetr}
