@@ -1,0 +1,5 @@
+Para a base de dados da swiss lipids apenas carregada a 60%
+
+Total de 637 lipidos
+Apenas 31, aproximadamente 3% estão defenidos e contem annotações para bases de dados
+Apos a implementação foi possivel obter annotação para aproximadamente 37% dos lipidos do modelo, o que representa um incremento de 32% um total de 235 lipidos dos 637
