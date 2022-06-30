@@ -23,12 +23,11 @@ LABBELS – Laboratório Associado, Braga, Guimarães, Portugal}
 \begin{abstract}
 Systems Biology is gaining importance in the unveil of cellular secrets. More precisely GSM models allow the contextualization of omic data and the progress of genomic engineering.
 Still, the lack of macromolecule structural defined representation, such as lipids, is glaring.
-
--- Generic and defined duality
+Interestingly structurally defined lipidic representation in models don't have cross references that corroborate the structure. In this project we aim to fill this gap using lipidic synonyms and abbreviation to access the lipid structure and further annotation. 
 
 -- Resolution
 
-\keywords{Genome-Scale Metabolic Models  \and Lipids representation.}
+\keywords{Genome-Scale Metabolic Models  \and Lipids representation \and Lipids synonyms.}
 \end{abstract}
 %
 %
@@ -128,7 +127,7 @@ However, defined representations usually lack in structural annotations, hinderi
 
 \begin{figure}
     \includegraphics[width=\textwidth]{imagens/comparação.png}
-    \caption{Comparation between generic and defined representations. First one extracted from the model \textit{Tgondii} \cite{Tymoshenko2015}, and second one from model \textit{iLB1027-lipid} \cite{Levering2016}. The structure from the generic lipid was extrated from LIPI MAPS.}
+    \caption{Comparison between generic and structurally defined representations. S generic version of the CDP-glycerol is represented on the left, extracted from the \textit{Toxoplasma gondii} model \cite{Tymoshenko2015}. A structurally defined representation of 1,2-Diacyl-sn-glycerol is represented, extracted from the \textit{Phaeodactylum tricornutum} model \cite{Levering2016}. The structure from the generic lipid was extrated from LIPID MAPS.}
 \end{figure}
 
 A possible approach to fill this gap would be the integration of structural information in models. 
@@ -136,68 +135,72 @@ Such a solution would be achieved by the integration of synonyms and abbreviatio
 
 \subsection{Computational tools}
 \subsubsection{Neo4j}
-The database used for this project is formulated in graphs using the Neo4j program. A graph is a data structure composed of nodes and links. 
+The database used for this project is \textit{BOIMMG}, a database formulated in graphs using the Neo4j program. Graphs are data structures composed of nodes and edges. 
 Such an arrangement can emphasize the relationships between entities giving an edge over relational databases \cite{Miller2013}. 
-This is often useful for biological systems such as lipids where there are a plethora of relationships.
+This formalism is often helpful for capturing biological entities and the relationships between their components, namely lipids and their structural components (e.g., backbones and side chains). 
 
-Neo4j provides a library that allows you to connect and work on the database through python. 
-For our purposes, it will be used to facilitate the upload of data.
+Neo4j, a platform for graph database management, provides a Application Programming Interface (API) that allows developers to connect and work on the database using Python programming language.
 
 \section{Methodology}
 
-The first step in this project was to access Lipid Maps and Swiss Lipids online databases and extract the corresponding dataset.
-Afterward and to achieve the proposed objective it was necessary to transform the raw data into a  usable and trusted resource, and lastly upload it to our database.
+The first step in this project was to access LIPID MAPS and Swiss Lipids online databases and extract the corresponding dataset.
+Afterwards, it was necessary to transform the raw data into a usable and trusted resource and upload it to our database to achieve the proposed objective.
  
-To facilitate the process of accessing, treating, and loading lipidic data either from Lipid Maps or Swiss Lipids an ETL pipeline was built.
-ETL stands for Extract, Process, and Load, in a nutshell, it is an integration data tool that allows the gathering, processing, and integration of data, see Fig.\ref{fig4}. 
-This is extremely useful in the cleaning and the organization of the raw data into fresh reliable one, providing the bases for data analytics and machine learning approaches. 
+An Extract-Transform-Load (ETL) pipeline was developed to facilitate accessing, treating, and loading lipid data from Lipid Maps or Swiss Lipids.
+ETL is an integration data tool that gathers, processes, and integrates data. Fig.\ref{fig4} showcases a representation of an ETL pipeline. Such a method is particularly useful in cleaning and organising raw data into a reliable and controlled version. 
 
 \begin{figure}
     \includegraphics[width=\textwidth]{imagens/ETL.png}
-    \caption{Escheme of the process done with ETL pipeline.
-    First the ETL tool extracte data from multiple databases
-    then processes all that data
-    and finally integrates the data in our database.} \label{fig4}    
+    \caption{Representation scheme of an ETL pipeline.
+    First the ETL tool extracts (Extract) data from multiple databases
+    then processes all that data (Transform)
+    and finally integrates the data into the database (Load).} \label{fig4}    
 \end{figure}
 
 \subsection{ETL Pipeline Execution}
 \subsubsection{Extract Phase}
 
-Firstly the online database from the \textit{de facto} databases was accessed with the use of the package \textit{Requests} that accessed and downloaded a zip file with the data from Swiss Lipids in a CSV format and Lipid Maps in an SDF format. Then,
-the file is used to create a \textit{pandas DataFrame}. 
+Firstly the online database from the \textit{de facto} databases was accessed using the package \textit{requests} that accessed and downloaded a zip file with the data from Swiss Lipids in a comma-separated values (CSV) format and Lipid Maps in a Structure-Data File (SDF) format. Then, the file is used to create a \textit{pandas DataFrame}. 
 
-The process was done for Swiss Lipids and Lipid Maps separately, using two scripts to create a data frame for each. 
-In the data frames, we observe a large amount of disposable information in this context that can be resumed to a desirable data structure for our purpose.
+The process was done separately for Swiss Lipids and Lipid Maps, using Python Classes to create a data frame for each. 
+In the data frames, we observe a large amount of information that can be converted to a desirable data structure.
 
 \subsubsection{Transform Phase}
 
-The original data frame contains numerous columns, each representing a characteristic/information about the lipids represented in rows but, for our objective, only three are necessary.
-They are the columns for synonyms, abbreviations, and the column with the ID needed to match with the lipids in the database. 
-Another step in the treatment is necessary to treat the cases where a lipid has more than one synonym or abbreviation.
+The original data frame contains numerous columns, each having information about the lipids represented in each row. However, only three are necessary for the scope of this project.
+They are the columns for synonyms, abbreviations, and the column with the identifier (ID) needed to match the lipids in the database. 
+Another step is necessary to treat the cases where a lipid has more than one synonym or abbreviation.
 
-The class developed to this phase creates a new data frame with only two columns, one for lipid id and another for synonyms and abbreviations.
-Then, by successive iterations over the rows of the original dataset, the lipid ID is added into the first column and his synonym and abbreviations into the second. 
-In cases where one or more synonyms and abbreviations are present, it is created a new line with the same id for each different synonym and abbreviation.
-Since the data frames are relatively large, multiprocessing was used to help reduce the final time by nearly 10 times for this phase.
+The Python class developed for this phase creates a new data frame with only two columns, one for lipid ID and another for synonyms and abbreviations.
+Then, successive iterations over the rows of the original dataset are performed, adding the lipid ID into the first column and its synonym and abbreviations into the second. 
+A new line is created with the same ID for each synonym and abbreviation in cases where one or more synonyms and abbreviations are present.
+Since the data frames are relatively large, multiprocessing was used to help reduce the final time by nearly ten times for this phase.
 
 \subsubsection{Load Phase}
-Having obtained the treated data frame, all that remains is to load the information into the database. For this purpose, it is necessary to connect to the local database and formulate queries that create the nodes corresponding 
-to synonyms and abbreviations as well as the relations between these and the database lipids.
+Having obtained the transformed data, the information was loaded into the database. For this purpose, it was necessary to connect to the database and formulate queries that create the nodes corresponding 
+to synonyms and abbreviations as well as to the relations between these and the database lipids.
 
-For instance, one synonym node could be linked to many lipids, especially synonyms of the backbone, 
-but one lipid is restringed by its composition for the number of connections with synonyms. For instance, if the node does not exist occurs the formulating of its relationship to the corresponding lipid id.
+For instance, one synonym node could be linked to many lipids, especially synonyms of the backbone that are equal for many lipids. 
+The lipid nodes, on the other hand, are restricted to a certain number of synonyms that depends on their composition (backbone plus the number of side chains).
+
+In the implementation first the synonym node is created and only then the relations with the corresponding lipid nodes are formulated.
 As in the transformation phase, multiprocessing was here used to speed up loading into the database.
 
 \subsection{Model testing}
 
-The final step proposed was the testing in a model case with structurally defined lipids and a lack of cross-references to databases, for this the choice fell on the \textit{iLB1027-lipid} model \cite{Levering2016}.
-The model in study contains many metabolites including lipids, so it was necessary to select them. 
+The final step was the testing in a model case with structurally defined lipids and a lack of cross-references to databases; for this, the choice fell on the \textit{iLB1027-lipid} model \cite{Levering2016}.
 
-Regular expressions were used to search for characteristic patterns of lipids so that they could be separated from the remaining metabolites.
-Next, the same process was used to split the lipid names into backbone and side chains, these components were used to get the corresponding database ids. 
-As expected not all synonyms are represented in the database, so it is necessary to restrict the passage of those that get the id for the backbone and at least one side chain.
+Regular expressions were used to search for characteristic patterns of lipid names so that they could be separated from the remaining metabolites.
+Next, the same process was used to split the lipid names into backbone and side chains; these components were used to get the corresponding database IDs. 
+As expected, not all synonyms are represented in the database, so it is necessary to limit the selection of those that get the ID for the backbone and at least one side chain.
 
-In the last step, all lipid compounds containing a specific backbone side-chain combination are searched in the database and the occurrences in the model for each backbone (lipid class) are counted.
+
+The last step consists in the gathering of information for statistic purpose. Primarily all lipid compounds containing a specific backbone/side-chain combination are searched in the database. They represent the connection with a \textit{de facto} database essential to annotate the model. At the same time the occurrences in the model for each backbone (lipid class) are counted. Similarly for each lipid in the model is created an entry in a dictionary where hits are stored in the form of database id. In this case lipids with more than one hit may appear in the database. 
+
+Using the information mentioned above, means and standard deviations are calculated for the number of hits for each model lipid in the database. A comparison is also made between the lipids annotated in the model and those that could be annotated following this process. 
+
+
+
 
 
 \section{Results and discussion}

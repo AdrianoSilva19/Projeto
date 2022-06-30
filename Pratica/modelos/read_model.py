@@ -50,7 +50,7 @@ for value in results.values():
 for count, value in enumerate(listr):
         listr[count]=len(value)
         
-data=pd.DataFrame(listr)
+data=pd.Series(listr)
 print(data.describe())
 
 # grafico
